@@ -161,7 +161,19 @@ main {
 .d-s { background: rgba(255, 210, 63, 0.14); color: var(--accent); }
 
 /* ---- rank table ---- */
-.rank-wrap { padding: 8px 10px 14px; overflow-x: auto; min-height: 120px; }
+.rank-wrap { 
+  padding: 8px 10px 14px; 
+  overflow-x: auto; 
+  min-height: 120px; 
+  /* 파이어폭스, IE, 엣지 브라우저에서 스크롤바 숨김 */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+/* 크롬, 사파리 브라우저에서 스크롤바 숨김 */
+.rank-wrap::-webkit-scrollbar {
+  display: none;
+}
 table.rank { width: 100%; border-collapse: collapse; font-size: 13px; }
 table.rank th {
   color: var(--muted); font-weight: 600; text-align: center;
