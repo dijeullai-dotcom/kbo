@@ -180,7 +180,6 @@ main {
 /* ... 중략 ... */
 table.rank { 
   width: 100%; 
-  height: 100%;
   border-collapse: collapse; 
   font-size: 14.5px; /* 👈 기존 13px(또는 11.5px)에서 14.5px로 폰트 확대! */
   letter-spacing: -0.3px; /* 글씨가 커져서 가로 스크롤바가 다시 생기는 걸 방지 */
