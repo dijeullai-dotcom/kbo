@@ -1,0 +1,191 @@
+:root {
+  --bg: #0d1117;
+  --bg-soft: #161b22;
+  --bg-card: #1c2330;
+  --border: #283040;
+  --text: #e6edf3;
+  --muted: #8b96a5;
+  --accent: #ffd23f;
+  --win: #3fb950;
+  --lose: #f0556d;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Pretendard", -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+  background: radial-gradient(1200px 600px at 70% -10%, #1a2740 0%, var(--bg) 55%);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* ---- header ---- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 26px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(13, 17, 23, 0.7);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand .ball { font-size: 28px; filter: drop-shadow(0 0 8px rgba(255, 210, 63, 0.5)); }
+.brand h1 { font-size: 20px; margin: 0; font-weight: 800; letter-spacing: -0.3px; }
+.brand h1 em { color: var(--accent); font-style: normal; font-weight: 700; }
+
+.refresh {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.refresh:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---- layout ---- */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+@media (max-width: 860px) {
+  main { grid-template-columns: 1fr; }
+}
+
+.panel {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border);
+}
+.panel-head h2 { margin: 0; font-size: 16px; font-weight: 700; }
+.asof { color: var(--muted); font-size: 12px; }
+
+/* ---- date controls ---- */
+.datectrl { display: flex; align-items: center; gap: 6px; }
+.navbtn {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.navbtn:hover { border-color: var(--accent); }
+.navbtn.today { font-size: 12px; }
+#datePick {
+  background: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 8px;
+  font-size: 13px;
+  color-scheme: dark;
+}
+
+/* ---- game list ---- */
+.game-list { padding: 14px; display: flex; flex-direction: column; gap: 12px; min-height: 120px; }
+.game-card {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--team, var(--border));
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.gc-team { display: flex; flex-direction: column; gap: 4px; }
+.gc-team.away { align-items: flex-start; }
+.gc-team.home { align-items: flex-end; }
+.gc-name { font-weight: 700; font-size: 16px; display: flex; align-items: center; gap: 7px; }
+.gc-team.home .gc-name { flex-direction: row-reverse; }
+.gc-logo { width: 24px; height: 24px; object-fit: contain; }
+.gc-dot {
+  width: 9px; height: 9px; border-radius: 50%;
+  display: inline-block; margin-right: 6px; vertical-align: middle;
+  background: var(--c, #555);
+}
+.gc-mid { text-align: center; min-width: 90px; }
+.gc-score { font-size: 26px; font-weight: 800; letter-spacing: 1px; }
+.gc-score .w { color: var(--win); }
+.gc-score .l { color: var(--muted); }
+.gc-vs { font-size: 18px; font-weight: 700; color: var(--muted); }
+.gc-meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.gc-badge {
+  display: inline-block; font-size: 10px; font-weight: 700;
+  padding: 2px 7px; border-radius: 999px; margin-top: 5px;
+}
+.b-end { background: rgba(63, 185, 80, 0.15); color: var(--win); }
+.b-soon { background: rgba(255, 210, 63, 0.15); color: var(--accent); }
+.b-cancel { background: rgba(240, 85, 109, 0.15); color: var(--lose); }
+
+/* 선발투수 */
+.gc-pit {
+  font-size: 11px; color: var(--muted); margin-top: 4px;
+  display: flex; align-items: center; gap: 4px;
+}
+.gc-pit::before { content: "⚾"; font-size: 9px; opacity: 0.6; }
+.gc-team.home .gc-pit { flex-direction: row-reverse; }
+/* 승/패/세이브 투수 (종료 경기) */
+.gc-decide {
+  margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; justify-content: center;
+  font-size: 10px;
+}
+.gc-decide span { padding: 1px 6px; border-radius: 999px; white-space: nowrap; }
+.d-w { background: rgba(63, 185, 80, 0.14); color: var(--win); }
+.d-l { background: rgba(240, 85, 109, 0.14); color: var(--lose); }
+.d-s { background: rgba(255, 210, 63, 0.14); color: var(--accent); }
+
+/* ---- rank table ---- */
+.rank-wrap { padding: 8px 10px 14px; overflow-x: auto; min-height: 120px; }
+table.rank { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.rank th {
+  color: var(--muted); font-weight: 600; text-align: center;
+  padding: 8px 6px; border-bottom: 1px solid var(--border); white-space: nowrap;
+}
+table.rank td { padding: 9px 6px; text-align: center; border-bottom: 1px solid rgba(40,48,64,0.5); }
+table.rank tr:last-child td { border-bottom: none; }
+table.rank .t-rank { font-weight: 800; width: 34px; }
+table.rank .t-team { text-align: left; font-weight: 700; white-space: nowrap; }
+table.rank .t-team .gc-dot { margin-right: 8px; }
+table.rank .t-logo {
+  width: 22px; height: 22px; object-fit: contain;
+  vertical-align: middle; margin-right: 8px;
+}
+table.rank .t-pct { font-weight: 700; color: var(--accent); }
+table.rank tr:hover td { background: rgba(255,255,255,0.02); }
+.streak-up { color: var(--win); }
+.streak-down { color: var(--lose); }
+
+.loading, .empty { color: var(--muted); text-align: center; padding: 40px 10px; font-size: 14px; }
+.error { color: var(--lose); text-align: center; padding: 30px 10px; font-size: 13px; }
+
+footer {
+  max-width: 1100px; margin: 0 auto; padding: 20px 24px 40px;
+  color: var(--muted); font-size: 12px; text-align: center;
+}
+footer a { color: var(--accent); text-decoration: none; }
