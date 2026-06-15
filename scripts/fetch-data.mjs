@@ -181,24 +181,47 @@ async function fetchGameList(date) {
       winPitcher: cleanName(g.W_PIT_P_NM),
       losePitcher: cleanName(g.L_PIT_P_NM),
       savePitcher: cleanName(g.SV_PIT_P_NM),
-      // 선발 투수 상세 정보 (승, 패, ERA) 추가
-      awayStarterInfo: {
-        name: cleanName(g.T_PIT_P_NM),
-        wins: g.T_PIT_W_CN || "0",
-        losses: g.T_PIT_L_CN || "0",
-        era: g.T_PIT_ERA_RT || "-"
-      },
-      homeStarterInfo: {
-        name: cleanName(g.B_PIT_P_NM),
-        wins: g.B_PIT_W_CN || "0",
-        losses: g.B_PIT_L_CN || "0",
-        era: g.B_PIT_ERA_RT || "-"
-      }
     };
     if (g.G_ID) map[g.G_ID] = info;
     map[`${date}|${cleanName(g.AWAY_NM)}|${cleanName(g.HOME_NM)}`] = info;
   }
   return map;
+}
+
+// ---- 예고 선발 투수 (StartingPitcher.aspx) ----
+async function fetchPreviewPitchers() {
+  try {
+    const res = await fetch(`${BASE}/Schedule/StartingPitcher.aspx`, {
+      headers: { "User-Agent": UA },
+    });
+    if (!res.ok) throw new Error(`preview HTTP ${res.status}`);
+    const html = await res.text();
+
+    const previewMap = {};
+    const blocks = html.match(/<div class="team">[\s\S]*?<\/div>/g) || [];
+
+    for (const block of blocks) {
+      // 1. 팀명 찾기
+      const teamMatch = block.match(/alt="([^"]+)"/);
+      // 2. 투수 이름 찾기
+      const nameMatch = block.match(/class="name"[^>]*>([^<]+)/) || block.match(/class="tit"[^>]*>선발투수.*?([^<]+)/s);
+
+      if (teamMatch && nameMatch) {
+        let team = cleanName(teamMatch[1]);
+        let pitcher = cleanName(nameMatch[1]);
+        
+        // 데이터 정제
+        pitcher = pitcher.replace(/선발투수|좌투좌타|우투우타|우투좌타|좌투우타/g, "").trim();
+        if (team && pitcher) {
+          previewMap[team] = pitcher;
+        }
+      }
+    }
+    return previewMap;
+  } catch (e) {
+    console.error(`예고 선발 수집 실패: ${e.message}`);
+    return {}; 
+  }
 }
 
 function monthsAround(d) {
@@ -248,7 +271,11 @@ async function main() {
     .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   const dates = [...new Set(games.map((g) => g.date))].sort();
 
-  // 선발투수 병합 — 경기 있는 날짜마다 GetKboGameList 호출
+  // 1. KBO 예고 선발 페이지에서 내일/오늘의 선발 투수 명단 미리 가져오기
+  const previewPitchers = await fetchPreviewPitchers();
+  console.log(`예고 선발 데이터 확보: ${Object.keys(previewPitchers).length}팀`);
+
+  // 2. 선발투수 병합 — 경기 있는 날짜마다 GetKboGameList 호출
   let pitcherDays = 0;
   for (const date of dates) {
     try {
@@ -256,17 +283,16 @@ async function main() {
       for (const g of games) {
         if (g.date !== date) continue;
         const info = map[g.gameId] || map[`${date}|${g.away}|${g.home}`];
-        if (!info) continue;
         
-        g.awayPitcher = info.awayPitcher;
-        g.homePitcher = info.homePitcher;
-        g.winPitcher = info.winPitcher;
-        g.losePitcher = info.losePitcher;
-        g.savePitcher = info.savePitcher;
-        
-        // 파싱한 선발 투수 상세 정보를 최종 데이터에 병합
-        g.awayStarterInfo = info.awayStarterInfo;
-        g.homeStarterInfo = info.homeStarterInfo;
+        // 핵심 로직: API에 투수 정보가 있으면 쓰고, 없으면 예고 선발 데이터에서 주입
+        g.awayPitcher = (info && info.awayPitcher) ? info.awayPitcher : (previewPitchers[g.away] || "");
+        g.homePitcher = (info && info.homePitcher) ? info.homePitcher : (previewPitchers[g.home] || "");
+
+        if (info) {
+          g.winPitcher = info.winPitcher || "";
+          g.losePitcher = info.losePitcher || "";
+          g.savePitcher = info.savePitcher || "";
+        }
       }
       pitcherDays++;
     } catch (e) {
@@ -274,7 +300,7 @@ async function main() {
     }
     await new Promise((r) => setTimeout(r, 120)); // KBO 서버 부담 완화
   }
-  console.log(`선발투수 병합: ${pitcherDays}/${dates.length}일`);
+  console.log(`선발투수 병합 완료: ${pitcherDays}/${dates.length}일 처리`);
 
   await writeFile(
     path.join(DATA_DIR, "schedule.json"),
