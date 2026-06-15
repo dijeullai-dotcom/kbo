@@ -59,7 +59,7 @@ main {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
   gap: 22px;
-  align-items: start;
+  align-items: stretch;
 }
 @media (max-width: 860px) {
   main { grid-template-columns: 1fr; }
@@ -71,6 +71,8 @@ main {
   border-radius: 16px;
   box-shadow: var(--shadow);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .panel-head {
   display: flex;
