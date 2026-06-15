@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KBO 오늘의 경기 · 팀 순위</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="ball">⚾</span>
+        <h1>KBO <em>오늘의 경기 &amp; 순위</em></h1>
+      </div>
+      <button id="refresh" class="refresh" title="새로고침">↻ 새로고침</button>
+    </header>
+
+    <main>
+      <section class="panel games">
+        <div class="panel-head">
+          <h2>경기 일정</h2>
+          <div class="datectrl">
+            <button id="prevDay" class="navbtn">‹</button>
+            <input type="date" id="datePick" />
+            <button id="nextDay" class="navbtn">›</button>
+            <button id="todayBtn" class="navbtn today">오늘</button>
+          </div>
+        </div>
+        <div id="gameList" class="game-list">
+          <div class="loading">불러오는 중…</div>
+        </div>
+      </section>
+
+      <section class="panel rank">
+        <div class="panel-head">
+          <h2>팀 순위</h2>
+          <span id="rankAsOf" class="asof"></span>
+        </div>
+        <div id="rankTable" class="rank-wrap">
+          <div class="loading">불러오는 중…</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      데이터 출처: <a href="https://www.koreabaseball.com" target="_blank" rel="noreferrer">KBO 공식</a>
+      · 본 페이지는 개인용 비공식 정보 페이지입니다.
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
