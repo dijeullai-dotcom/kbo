@@ -117,10 +117,10 @@ function renderGames() {
 
     // 선발투수 (예고 또는 실제) — 라벨은 종료 경기면 "선발" 그대로
     const awayPit = g.awayPitcher
-      ? `<div class="gc-pit">선발 ${g.awayPitcher}</div>`
+      ? `<div class="gc-pit"><span class="pit-txt">선발<br>${g.awayPitcher}</span></div>`
       : "";
     const homePit = g.homePitcher
-      ? `<div class="gc-pit">선발 ${g.homePitcher}</div>`
+      ? `<div class="gc-pit"><span class="pit-txt">선발<br>${g.homePitcher}</span></div>`
       : "";
     // 종료 경기면 승/패/세이브 투수 요약
     const decision = finished
