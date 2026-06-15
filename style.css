@@ -174,12 +174,24 @@ main {
 .rank-wrap::-webkit-scrollbar {
   display: none;
 }
-table.rank { width: 100%; border-collapse: collapse; font-size: 13px; }
+/* ---- rank table ---- */
+/* ... 중략 ... */
+table.rank { 
+  width: 100%; 
+  border-collapse: collapse; 
+  font-size: 11.5px; /* 글씨 크기를 13px에서 11.5px로 축소 */
+  letter-spacing: -0.3px; /* 글자 사이 간격을 살짝 좁혀서 공간 확보 */
+}
 table.rank th {
   color: var(--muted); font-weight: 600; text-align: center;
-  padding: 8px 6px; border-bottom: 1px solid var(--border); white-space: nowrap;
+  padding: 8px 3px; /* 좌우 여백을 6px에서 3px로 축소 */
+  border-bottom: 1px solid var(--border); white-space: nowrap;
 }
-table.rank td { padding: 9px 6px; text-align: center; border-bottom: 1px solid rgba(40,48,64,0.5); }
+table.rank td { 
+  padding: 9px 3px; /* 좌우 여백을 6px에서 3px로 축소 */
+  text-align: center; 
+  border-bottom: 1px solid rgba(40,48,64,0.5); 
+}
 table.rank tr:last-child td { border-bottom: none; }
 table.rank .t-rank { font-weight: 800; width: 34px; }
 table.rank .t-team { text-align: left; font-weight: 700; white-space: nowrap; }
