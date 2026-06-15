@@ -184,7 +184,7 @@ function renderRank(teams) {
   box.innerHTML = `<table class="rank">
     <thead><tr>
       <th>순위</th><th>팀</th><th>경기</th><th>승</th><th>패</th><th>무</th>
-      <th>승률</th><th>게임차</th><th>최근10</th><th>연속</th>
+      <th>승률</th><th>게임차</th><th>최근10경기</th><th>연속</th>
     </tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
