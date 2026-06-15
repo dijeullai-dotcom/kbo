@@ -168,6 +168,7 @@ main {
   overflow-x: auto; 
   min-height: 120px; 
   /* 파이어폭스, IE, 엣지 브라우저에서 스크롤바 숨김 */
+  flex: 1;
   -ms-overflow-style: none; 
   scrollbar-width: none; 
 }
@@ -180,9 +181,10 @@ main {
 /* ... 중략 ... */
 table.rank { 
   width: 100%; 
+  height: 100%;
   border-collapse: collapse; 
-  font-size: 11.5px; /* 글씨 크기를 13px에서 11.5px로 축소 */
-  letter-spacing: -0.3px; /* 글자 사이 간격을 살짝 좁혀서 공간 확보 */
+  font-size: 14.5px; /* 👈 기존 13px(또는 11.5px)에서 14.5px로 폰트 확대! */
+  letter-spacing: -0.3px; /* 글씨가 커져서 가로 스크롤바가 다시 생기는 걸 방지 */
 }
 table.rank th {
   color: var(--muted); font-weight: 600; text-align: center;
