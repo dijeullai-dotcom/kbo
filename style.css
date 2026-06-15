@@ -123,7 +123,7 @@ main {
 .gc-team { display: flex; flex-direction: column; gap: 4px; }
 .gc-team.away { align-items: flex-start; }
 .gc-team.home { align-items: flex-end; }
-.gc-name { font-weight: 700; font-size: 16px; display: flex; align-items: center; gap: 7px; }
+.gc-name { font-weight: 700; font-size: 16px; display: flex; align-items: center; gap: 7px; white-space: nowrap; }
 .gc-team.home .gc-name { flex-direction: row-reverse; }
 .gc-logo { width: 24px; height: 24px; object-fit: contain; }
 .gc-dot {
@@ -231,6 +231,9 @@ footer a { color: var(--accent); text-decoration: none; }
   table.rank td {
     padding: 6px 2px; 
   }
+  /* 선발 투수 줄바꿈 시 간격 및 우측 정렬 (홈팀) */
+.gc-pit .pit-txt { line-height: 1.4; }
+.gc-team.home .gc-pit .pit-txt { text-align: right; }
   
   /* 팀 엠블럼 로고 크기와 여백도 모바일에 맞춰 살짝 축소 */
   table.rank .t-logo {
