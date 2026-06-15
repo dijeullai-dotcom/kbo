@@ -217,3 +217,29 @@ footer {
   color: var(--muted); font-size: 12px; text-align: center;
 }
 footer a { color: var(--accent); text-decoration: none; }
+
+/* ---- 모바일(스마트폰) 전용 화면 설정 ---- */
+@media (max-width: 600px) {
+  /* 순위표 전체 글씨 및 자간 축소 */
+  table.rank {
+    font-size: 11px; /* 모바일에 맞게 글씨 크기 대폭 축소 */
+    letter-spacing: -0.5px; /* 글자 사이 간격도 조금 더 바짝 당김 */
+  }
+  
+  /* 칸 안의 좌우 여백(Padding)을 2px로 최소화해서 가로 공간 확보 */
+  table.rank th,
+  table.rank td {
+    padding: 6px 2px; 
+  }
+  
+  /* 팀 엠블럼 로고 크기와 여백도 모바일에 맞춰 살짝 축소 */
+  table.rank .t-logo {
+    width: 18px; 
+    height: 18px;
+    margin-right: 4px;
+  }
+  
+  table.rank .t-team .gc-dot {
+    margin-right: 4px;
+  }
+}
