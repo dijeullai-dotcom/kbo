@@ -3459,8 +3459,8 @@
       "home": "KIA",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "장현식",
+      "homePitcher": "올러",
       "stadium": "광주",
       "note": "-",
       "status": "예정",
@@ -6367,5 +6367,5 @@
     "20260730",
     "20260731"
   ],
-  "updatedAt": "2026-06-16T11:27:54.419Z"
+  "updatedAt": "2026-06-16T12:21:12.315Z"
 }
