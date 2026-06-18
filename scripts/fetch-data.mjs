@@ -62,12 +62,15 @@ async function fetchRank() {
 
 // ---- 경기 일정 ----
 function parsePlay(html = "") {
-  const names = [...html.matchAll(/<span>([^<]*)<\/span>/g)]
-    .map((x) => x[1].trim())
-    .filter((x) => x && x !== "vs");
-  const scores = [...html.matchAll(/<span class="(win|lose|draw)">(\d+)<\/span>/g)].map(
-    (x) => +x[2]
-  );
+  // 1. span 태그 안의 모든 텍스트 추출 (class 속성과 무관하게)
+  const texts = [...html.matchAll(/<span[^>]*>([^<]*)<\/span>/g)].map((x) => x[1].trim());
+
+  // 2. 'vs'를 제외하고, 문자로 이루어진 것을 팀명으로 분류
+  const names = texts.filter((x) => x && x.toLowerCase() !== "vs" && isNaN(Number(x)));
+  
+  // 3. 숫자로 이루어진 것을 점수로 분류
+  const scores = texts.filter((x) => x && !isNaN(Number(x))).map((x) => Number(x));
+
   return {
     away: names[0] || "",
     home: names[1] || "",
