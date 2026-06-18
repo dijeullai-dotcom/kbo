@@ -3491,20 +3491,20 @@
       "time": "18:30",
       "away": "KT",
       "home": "두산",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 1,
+      "homeScore": 2,
       "awayPitcher": "소형준",
       "homePitcher": "최민석",
       "stadium": "잠실",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260618",
-      "gameId": "20260618WOSS0",
+      "gameId": "",
       "time": "18:30",
       "away": "키움",
       "home": "삼성",
@@ -3521,7 +3521,7 @@
     },
     {
       "date": "20260618",
-      "gameId": "20260618LTSK0",
+      "gameId": "",
       "time": "18:30",
       "away": "롯데",
       "home": "SSG",
@@ -3538,7 +3538,7 @@
     },
     {
       "date": "20260618",
-      "gameId": "20260618LGHT0",
+      "gameId": "",
       "time": "18:30",
       "away": "LG",
       "home": "KIA",
@@ -3559,13 +3559,13 @@
       "time": "18:30",
       "away": "한화",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 6,
       "awayPitcher": "에르난데스",
       "homePitcher": "테일러",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -6367,5 +6367,5 @@
     "20260730",
     "20260731"
   ],
-  "updatedAt": "2026-06-17T22:23:22.798Z"
+  "updatedAt": "2026-06-18T12:33:24.584Z"
 }
