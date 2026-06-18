@@ -101,6 +101,7 @@ function renderGames() {
     const finished = g.status === "종료" && g.awayScore != null;
     const awayWin = finished && g.awayScore > g.homeScore;
     const homeWin = finished && g.homeScore > g.awayScore;
+    const isDraw = finished && g.awayScore === g.homeScore; // 무승부 판단 추가
 
     const badge =
       g.status === "종료"
@@ -109,29 +110,33 @@ function renderGames() {
         ? `<span class="gc-badge b-cancel">${g.note || "취소"}</span>`
         : `<span class="gc-badge b-soon">${g.time || "예정"}</span>`;
 
+    // 무승부일 때는 점수 색상을 패배(l) 색상 대신 일반 색상으로 유지
     const mid = finished
-      ? `<div class="gc-score"><span class="${awayWin ? "w" : "l"}">${g.awayScore}</span>
+      ? `<div class="gc-score"><span class="${awayWin ? "w" : isDraw ? "" : "l"}">${g.awayScore}</span>
            <span style="color:var(--muted);font-size:16px"> : </span>
-           <span class="${homeWin ? "w" : "l"}">${g.homeScore}</span></div>`
+           <span class="${homeWin ? "w" : isDraw ? "" : "l"}">${g.homeScore}</span></div>`
       : `<div class="gc-vs">VS</div>`;
 
-    // 선발투수 (예고 또는 실제) — 라벨은 종료 경기면 "선발" 그대로
     const awayPit = g.awayPitcher
       ? `<div class="gc-pit"><span class="pit-txt">선발<br>${g.awayPitcher}</span></div>`
       : "";
     const homePit = g.homePitcher
       ? `<div class="gc-pit"><span class="pit-txt">선발<br>${g.homePitcher}</span></div>`
       : "";
-    // 종료 경기면 승/패/세이브 투수 요약
-    const decision = finished
-      ? `<div class="gc-decide">${[
-          g.winPitcher && `<span class="d-w">승 ${g.winPitcher}</span>`,
-          g.losePitcher && `<span class="d-l">패 ${g.losePitcher}</span>`,
-          g.savePitcher && `<span class="d-s">세 ${g.savePitcher}</span>`,
-        ]
-          .filter(Boolean)
-          .join("")}</div>`
-      : "";
+      
+    // 종료 경기 요약 (무승부 전용 UI 추가)
+    let decision = "";
+    if (finished) {
+      if (isDraw) {
+        decision = `<div class="gc-decide"><span class="d-s" style="color:var(--muted)">무승부</span></div>`;
+      } else {
+        decision = `<div class="gc-decide">${[
+            g.winPitcher && `<span class="d-w">승 ${g.winPitcher}</span>`,
+            g.losePitcher && `<span class="d-l">패 ${g.losePitcher}</span>`,
+            g.savePitcher && `<span class="d-s">세 ${g.savePitcher}</span>`,
+          ].filter(Boolean).join("")}</div>`;
+      }
+    }
 
     const card = document.createElement("div");
     card.className = "game-card";
