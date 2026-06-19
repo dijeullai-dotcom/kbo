@@ -3583,9 +3583,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "이정용",
+      "losePitcher": "벤자민",
+      "savePitcher": "손주영"
     },
     {
       "date": "20260619",
@@ -3600,8 +3600,8 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "네일",
+      "losePitcher": "오원석",
       "savePitcher": ""
     },
     {
@@ -3617,18 +3617,18 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "토다",
+      "losePitcher": "베니지아노",
       "savePitcher": ""
     },
     {
       "date": "20260619",
-      "gameId": "",
+      "gameId": "20260619SSHH0",
       "time": "18:30",
       "away": "삼성",
       "home": "한화",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 3,
+      "homeScore": 3,
       "awayPitcher": "후라도",
       "homePitcher": "박준영",
       "stadium": "대전",
@@ -3651,9 +3651,9 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "이민석",
+      "losePitcher": "알칸타라",
+      "savePitcher": "최준용"
     },
     {
       "date": "20260620",
@@ -3714,8 +3714,8 @@
       "home": "한화",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "장찬희",
+      "homePitcher": "왕옌청",
       "stadium": "대전",
       "note": "-",
       "status": "예정",
@@ -4167,7 +4167,7 @@
     },
     {
       "date": "20260627",
-      "gameId": "",
+      "gameId": "20260627HTOB0",
       "time": "17:00",
       "away": "KIA",
       "home": "두산",
@@ -4184,7 +4184,7 @@
     },
     {
       "date": "20260627",
-      "gameId": "",
+      "gameId": "20260627KTSS0",
       "time": "17:00",
       "away": "KT",
       "home": "삼성",
@@ -4201,7 +4201,7 @@
     },
     {
       "date": "20260627",
-      "gameId": "",
+      "gameId": "20260627LGLT0",
       "time": "17:00",
       "away": "LG",
       "home": "롯데",
@@ -4218,7 +4218,7 @@
     },
     {
       "date": "20260627",
-      "gameId": "",
+      "gameId": "20260627HHSK0",
       "time": "17:00",
       "away": "한화",
       "home": "SSG",
@@ -4235,7 +4235,7 @@
     },
     {
       "date": "20260627",
-      "gameId": "",
+      "gameId": "20260627WONC0",
       "time": "17:00",
       "away": "키움",
       "home": "NC",
@@ -6367,5 +6367,5 @@
     "20260730",
     "20260731"
   ],
-  "updatedAt": "2026-06-19T13:01:07.893Z"
+  "updatedAt": "2026-06-19T20:21:49.397Z"
 }
