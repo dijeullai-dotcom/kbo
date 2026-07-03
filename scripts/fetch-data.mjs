@@ -62,13 +62,8 @@ async function fetchRank() {
 
 // ---- 경기 일정 ----
 function parsePlay(html = "") {
-  // 1. span 태그 안의 모든 텍스트 추출 (class 속성과 무관하게)
   const texts = [...html.matchAll(/<span[^>]*>([^<]*)<\/span>/g)].map((x) => x[1].trim());
-
-  // 2. 'vs'를 제외하고, 문자로 이루어진 것을 팀명으로 분류
   const names = texts.filter((x) => x && x.toLowerCase() !== "vs" && isNaN(Number(x)));
-  
-  // 3. 숫자로 이루어진 것을 점수로 분류
   const scores = texts.filter((x) => x && !isNaN(Number(x))).map((x) => Number(x));
 
   return {
@@ -82,7 +77,7 @@ function parsePlay(html = "") {
 async function fetchMonth(seasonId, gameMonth) {
   const body = new URLSearchParams({
     leId: "1",
-    srIdList: "0,9,6", // 정규시즌
+    srIdList: "0,9,6", 
     seasonId,
     gameMonth,
     teamId: "",
@@ -92,7 +87,7 @@ async function fetchMonth(seasonId, gameMonth) {
     headers: {
       "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
       "User-Agent": UA,
-      Referer: `${BASE}/Schedule/Schedule.aspx`, // 필수 — 없으면 에러 HTML 반환
+      Referer: `${BASE}/Schedule/Schedule.aspx`,
       "X-Requested-With": "XMLHttpRequest",
     },
     body,
@@ -119,7 +114,6 @@ async function fetchMonth(seasonId, gameMonth) {
     const { away, home, awayScore, homeScore } = parsePlay(byClass.play);
     if (!away && !home) continue;
 
-    // 게임ID (선발투수 병합용) — 리뷰/하이라이트 버튼 href 에 들어있음
     const gidMatch = cells
       .map((c) => c.Text || "")
       .join(" ")
@@ -155,7 +149,6 @@ function cleanName(s) {
 }
 
 async function fetchGameList(date) {
-  // GetKboGameList: 해당 날짜 전 경기의 선발/승패/세이브 투수, 점수, 상태
   const body = new URLSearchParams({
     leId: "1",
     srId: "0,1,3,4,5,6,7,9",
@@ -175,12 +168,11 @@ async function fetchGameList(date) {
   const data = await res.json();
   const arr = data.game || (data.d ? JSON.parse(data.d).game : []) || [];
 
-  // gameId 와 (날짜|원정|홈) 두 키로 등록 (더블헤더 대비해 gameId 우선)
   const map = {};
   for (const g of arr) {
     const info = {
-      awayPitcher: cleanName(g.T_PIT_P_NM), // 원정(선공) 선발
-      homePitcher: cleanName(g.B_PIT_P_NM), // 홈(후공) 선발
+      awayPitcher: cleanName(g.T_PIT_P_NM),
+      homePitcher: cleanName(g.B_PIT_P_NM),
       winPitcher: cleanName(g.W_PIT_P_NM),
       losePitcher: cleanName(g.L_PIT_P_NM),
       savePitcher: cleanName(g.SV_PIT_P_NM),
@@ -204,16 +196,13 @@ async function fetchPreviewPitchers() {
     const blocks = html.match(/<div class="team">[\s\S]*?<\/div>/g) || [];
 
     for (const block of blocks) {
-      // 1. 팀명 찾기
       const teamMatch = block.match(/alt="([^"]+)"/);
-      // 2. 투수 이름 찾기
       const nameMatch = block.match(/class="name"[^>]*>([^<]+)/) || block.match(/class="tit"[^>]*>선발투수.*?([^<]+)/s);
 
       if (teamMatch && nameMatch) {
         let team = cleanName(teamMatch[1]);
         let pitcher = cleanName(nameMatch[1]);
         
-        // 데이터 정제
         pitcher = pitcher.replace(/선발투수|좌투좌타|우투우타|우투좌타|좌투우타/g, "").trim();
         if (team && pitcher) {
           previewMap[team] = pitcher;
@@ -228,7 +217,6 @@ async function fetchPreviewPitchers() {
 }
 
 function monthsAround(d) {
-  // 이전달·이번달·다음달 (YYYY, MM)
   const out = [];
   for (let off = -1; off <= 1; off++) {
     const x = new Date(d.getFullYear(), d.getMonth() + off, 1);
@@ -242,14 +230,8 @@ async function main() {
   const now = new Date();
   const updatedAt = now.toISOString();
 
-  // 순위
+  // 순위 (가져오기만 하고 저장은 마지막 단계에서 처리)
   const rank = await fetchRank();
-  await writeFile(
-    path.join(DATA_DIR, "rank.json"),
-    JSON.stringify({ ...rank, updatedAt }, null, 2),
-    "utf8"
-  );
-  console.log(`rank.json: ${rank.teams.length}팀 (기준 ${rank.asOf})`);
 
   // 일정 (이전·이번·다음 달)
   let games = [];
@@ -262,7 +244,7 @@ async function main() {
       console.error(`schedule ${y}.${m} 실패: ${e.message}`);
     }
   }
-  // 중복 제거 + 날짜순 정렬
+  
   const seen = new Set();
   games = games
     .filter((g) => {
@@ -274,11 +256,9 @@ async function main() {
     .sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
   const dates = [...new Set(games.map((g) => g.date))].sort();
 
-  // 1. KBO 예고 선발 페이지에서 내일/오늘의 선발 투수 명단 미리 가져오기
   const previewPitchers = await fetchPreviewPitchers();
   console.log(`예고 선발 데이터 확보: ${Object.keys(previewPitchers).length}팀`);
 
-  // 2. 선발투수 병합 — 경기 있는 날짜마다 GetKboGameList 호출
   let pitcherDays = 0;
   for (const date of dates) {
     try {
@@ -287,7 +267,6 @@ async function main() {
         if (g.date !== date) continue;
         const info = map[g.gameId] || map[`${date}|${g.away}|${g.home}`];
         
-        // 핵심 로직: API에 투수 정보가 있으면 쓰고, 없으면 예고 선발 데이터에서 주입
         g.awayPitcher = (info && info.awayPitcher) ? info.awayPitcher : (previewPitchers[g.away] || "");
         g.homePitcher = (info && info.homePitcher) ? info.homePitcher : (previewPitchers[g.home] || "");
 
@@ -301,9 +280,41 @@ async function main() {
     } catch (e) {
       console.error(`pitcher ${date} 실패: ${e.message}`);
     }
-    await new Promise((r) => setTimeout(r, 120)); // KBO 서버 부담 완화
+    await new Promise((r) => setTimeout(r, 120)); 
   }
   console.log(`선발투수 병합 완료: ${pitcherDays}/${dates.length}일 처리`);
+
+  // 💡 [방어 로직] 데이터가 불완전하면 파일 저장을 중단하고 빠져나갑니다.
+  const kstNow = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const todayStr = `${kstNow.getUTCFullYear()}${String(kstNow.getUTCMonth() + 1).padStart(2, "0")}${String(kstNow.getUTCDate()).padStart(2, "0")}`;
+  
+  const todaysGames = games.filter(g => g.date === todayStr);
+  let isAmbiguous = false;
+
+  for (const g of todaysGames) {
+    const hasScore = g.awayScore !== null && g.homeScore !== null;
+    const isDraw = hasScore && (g.awayScore === g.homeScore);
+    const isCanceled = g.status === "취소" || (g.note && g.note.includes("취소"));
+
+    // 점수는 났고 무승부/취소가 아닌데, 승리 투수 기록이 비어있다면 대기 상태로 간주
+    if (hasScore && !isDraw && !isCanceled && !g.winPitcher) {
+      console.log(`[보류] ${g.away} vs ${g.home} : 경기는 끝났으나 KBO 승/패 투수 집계 대기 중`);
+      isAmbiguous = true;
+    }
+  }
+
+  if (isAmbiguous) {
+    console.log("🚨 애매한 데이터 감지! 파일 업데이트(커밋)를 건너뛰고 15분 뒤 다음 스케줄을 기다립니다.");
+    process.exit(0); 
+  }
+
+  // 💡 [저장 로직] 방어선을 무사히 통과했을 때만 최종적으로 파일을 업데이트합니다.
+  await writeFile(
+    path.join(DATA_DIR, "rank.json"),
+    JSON.stringify({ ...rank, updatedAt }, null, 2),
+    "utf8"
+  );
+  console.log(`rank.json: ${rank.teams.length}팀 (기준 ${rank.asOf})`);
 
   await writeFile(
     path.join(DATA_DIR, "schedule.json"),
