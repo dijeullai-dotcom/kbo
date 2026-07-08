@@ -2728,8 +2728,8 @@
       "home": "두산",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "해치",
+      "homePitcher": "잭로그",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-08T10:55:08.072Z"
+  "updatedAt": "2026-07-08T12:14:41.870Z"
 }
