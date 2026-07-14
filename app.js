@@ -49,9 +49,9 @@ let current = ymd(new Date());
 let schedule = null; // { games, dates, updatedAt }
 
 // ---------- 데이터 로드 ----------
-async function loadSchedule() {
+async function loadSchedule(isAuto = false) {
   const box = $("#gameList");
-  box.innerHTML = `<div class="loading">불러오는 중…</div>`;
+  if (!isAuto) box.innerHTML = `<div class="loading">불러오는 중…</div>`;
   try {
     const res = await fetch(`data/schedule.json?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`schedule.json (${res.status})`);
@@ -62,9 +62,9 @@ async function loadSchedule() {
   }
 }
 
-async function loadRank() {
+async function loadRank(isAuto = false) {
   const box = $("#rankTable");
-  box.innerHTML = `<div class="loading">불러오는 중…</div>`;
+  if (!isAuto) box.innerHTML = `<div class="loading">불러오는 중…</div>`;
   try {
     const res = await fetch(`data/rank.json?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`rank.json (${res.status})`);
@@ -212,3 +212,9 @@ $("#refresh").addEventListener("click", () => { loadSchedule(); loadRank(); });
 // 초기 로드
 loadSchedule();
 loadRank();
+
+// 1분(60초)마다 자동으로 백그라운드 데이터 갱신 (화면 깜빡임 없이)
+setInterval(() => {
+  loadSchedule(true);
+  loadRank(true);
+}, 60000);
