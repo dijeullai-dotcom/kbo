@@ -53,7 +53,7 @@ async function loadSchedule() {
   const box = $("#gameList");
   box.innerHTML = `<div class="loading">불러오는 중…</div>`;
   try {
-    const res = await fetch(`data/schedule.json?t=${Date.now()}`);
+    const res = await fetch(`data/schedule.json?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`schedule.json (${res.status})`);
     schedule = await res.json();
     renderGames();
@@ -66,7 +66,7 @@ async function loadRank() {
   const box = $("#rankTable");
   box.innerHTML = `<div class="loading">불러오는 중…</div>`;
   try {
-    const res = await fetch(`data/rank.json?t=${Date.now()}`);
+    const res = await fetch(`data/rank.json?t=${Date.now()}`, { cache: "no-store" });
     if (!res.ok) throw new Error(`rank.json (${res.status})`);
     const data = await res.json();
     const stamp = [data.asOf ? `${data.asOf} 기준` : "", data.updatedAt ? `· ${relTime(data.updatedAt)} 수집` : ""]
