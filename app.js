@@ -235,14 +235,13 @@ $(".brand")?.addEventListener("click", () => {
   }
 });
 
-
 function openAdmin() {
   const modal = $("#adminModal");
   if (!modal) return;
   modal.style.display = "block";
   
   const savedToken = localStorage.getItem("kbo_gh_token") || "";
-  const savedRepo = localStorage.getItem("kbo_gh_repo") || "Kwonyul/kbo";
+  const savedRepo = localStorage.getItem("kbo_gh_repo") || "";
   
   $("#ghToken").value = savedToken;
   $("#ghOwnerRepo").value = savedRepo;
@@ -278,7 +277,7 @@ $("#forceUpdateBtn")?.addEventListener("click", async () => {
   const status = $("#adminStatus");
   
   if (!token || !repo) {
-    status.textContent = "토큰과 저장소 이름을 확인해주세요.";
+    status.textContent = "토큰과 저장소 이름을 입력해주세요.";
     status.className = "status-msg error";
     return;
   }
@@ -311,3 +310,4 @@ $("#forceUpdateBtn")?.addEventListener("click", async () => {
     status.className = "status-msg error";
   }
 });
+
