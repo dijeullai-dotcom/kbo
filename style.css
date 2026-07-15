@@ -34,7 +34,12 @@ body {
   top: 0;
   z-index: 10;
 }
-.brand { display: flex; align-items: center; gap: 12px; }
+.brand { 
+  display: flex; align-items: center; gap: 12px; 
+  cursor: pointer;
+  -webkit-user-select: none; /* 스마트폰 등에서 텍스트 드래그 방지 */
+  user-select: none; 
+}
 .brand .ball { font-size: 28px; filter: drop-shadow(0 0 8px rgba(255, 210, 63, 0.5)); }
 .brand h1 { font-size: 20px; margin: 0; font-weight: 800; letter-spacing: -0.3px; }
 .brand h1 em { color: var(--accent); font-style: normal; font-weight: 700; }

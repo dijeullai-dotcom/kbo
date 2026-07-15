@@ -226,13 +226,15 @@ let clickTimer = null;
 $(".brand")?.addEventListener("click", () => {
   clickCount++;
   if (clickTimer) clearTimeout(clickTimer);
-  clickTimer = setTimeout(() => { clickCount = 0; }, 1000);
+  // 3번 클릭하는 데 충분한 시간을 주기 위해 2초(2000ms)로 넉넉하게 변경
+  clickTimer = setTimeout(() => { clickCount = 0; }, 2000);
   
   if (clickCount >= 3) {
     clickCount = 0;
     openAdmin();
   }
 });
+
 
 function openAdmin() {
   const modal = $("#adminModal");
