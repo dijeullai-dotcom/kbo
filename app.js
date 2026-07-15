@@ -218,3 +218,94 @@ setInterval(() => {
   loadSchedule(true);
   loadRank(true);
 }, 60000);
+
+// ---------- Admin Mode (Force Update) ----------
+let clickCount = 0;
+let clickTimer = null;
+
+$(".brand")?.addEventListener("click", () => {
+  clickCount++;
+  if (clickTimer) clearTimeout(clickTimer);
+  clickTimer = setTimeout(() => { clickCount = 0; }, 1000);
+  
+  if (clickCount >= 3) {
+    clickCount = 0;
+    openAdmin();
+  }
+});
+
+function openAdmin() {
+  const modal = $("#adminModal");
+  if (!modal) return;
+  modal.style.display = "block";
+  
+  const savedToken = localStorage.getItem("kbo_gh_token") || "";
+  const savedRepo = localStorage.getItem("kbo_gh_repo") || "Kwonyul/kbo";
+  
+  $("#ghToken").value = savedToken;
+  $("#ghOwnerRepo").value = savedRepo;
+  $("#adminStatus").textContent = "";
+  $("#adminStatus").className = "status-msg";
+}
+
+$("#closeAdmin")?.addEventListener("click", () => {
+  $("#adminModal").style.display = "none";
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === $("#adminModal")) {
+    $("#adminModal").style.display = "none";
+  }
+});
+
+$("#saveAdminBtn")?.addEventListener("click", () => {
+  const token = $("#ghToken").value.trim();
+  const repo = $("#ghOwnerRepo").value.trim();
+  localStorage.setItem("kbo_gh_token", token);
+  localStorage.setItem("kbo_gh_repo", repo);
+  
+  const status = $("#adminStatus");
+  status.textContent = "✅ 설정이 저장되었습니다.";
+  status.className = "status-msg success";
+  setTimeout(() => { status.textContent = ""; }, 2000);
+});
+
+$("#forceUpdateBtn")?.addEventListener("click", async () => {
+  const token = $("#ghToken").value.trim();
+  const repo = $("#ghOwnerRepo").value.trim();
+  const status = $("#adminStatus");
+  
+  if (!token || !repo) {
+    status.textContent = "토큰과 저장소 이름을 확인해주세요.";
+    status.className = "status-msg error";
+    return;
+  }
+  
+  status.textContent = "🚀 서버 갱신 명령 전송 중...";
+  status.className = "status-msg";
+  
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/update-data.yml/dispatches`, {
+      method: "POST",
+      headers: {
+        "Accept": "application/vnd.github.v3+json",
+        "Authorization": `Bearer ${token}`
+      },
+      body: JSON.stringify({ ref: "main" })
+    });
+    
+    if (res.ok || res.status === 204) {
+      status.textContent = "✅ 서버에 갱신 명령을 보냈습니다. (약 1분 뒤 새로고침)";
+      status.className = "status-msg success";
+      setTimeout(() => {
+        $("#adminModal").style.display = "none";
+      }, 3000);
+    } else {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.message || `HTTP ${res.status}`);
+    }
+  } catch (e) {
+    status.textContent = `❌ 명령 전송 실패: ${e.message}`;
+    status.className = "status-msg error";
+  }
+});

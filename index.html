@@ -43,6 +43,26 @@
           <div class="loading">불러오는 중…</div>
         </div>
       </section>
+
+      <!-- Admin Modal (Hidden by default) -->
+      <div id="adminModal" class="modal" style="display: none;">
+        <div class="modal-content">
+          <span id="closeAdmin" class="close">&times;</span>
+          <h2>🛠 관리자 설정</h2>
+          <div class="admin-group">
+            <label for="ghOwnerRepo">저장소 (Owner/Repo)</label>
+            <input type="text" id="ghOwnerRepo" placeholder="예: Kwonyul/kbo" value="Kwonyul/kbo">
+          </div>
+          <div class="admin-group">
+            <label for="ghToken">GitHub 토큰 (PAT)</label>
+            <input type="password" id="ghToken" placeholder="ghp_로 시작하는 토큰 입력">
+          </div>
+          <button id="saveAdminBtn" class="btn">설정 저장</button>
+          <hr style="border: 1px solid var(--border); margin: 20px 0;">
+          <button id="forceUpdateBtn" class="btn btn-primary">🚀 서버 강제 갱신 명령</button>
+          <div id="adminStatus" class="status-msg"></div>
+        </div>
+      </div>
     </main>
 
     <footer>
