@@ -2818,9 +2818,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "로건",
+      "losePitcher": "톨허스트",
+      "savePitcher": "박영현"
     },
     {
       "date": "20260716",
@@ -2835,9 +2835,9 @@
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "양창섭",
+      "losePitcher": "로드리게스",
+      "savePitcher": "김재윤"
     },
     {
       "date": "20260716",
@@ -2852,8 +2852,8 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "아빌라",
+      "losePitcher": "올러",
       "savePitcher": ""
     },
     {
@@ -2869,8 +2869,8 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "라일리",
+      "losePitcher": "곽빈",
       "savePitcher": ""
     },
     {
@@ -2886,8 +2886,8 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "알칸타라",
+      "losePitcher": "화이트",
       "savePitcher": ""
     },
     {
@@ -3402,7 +3402,7 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724SSOB0",
       "time": "18:30",
       "away": "삼성",
       "home": "두산",
@@ -3419,7 +3419,7 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724KTLT0",
       "time": "18:30",
       "away": "KT",
       "home": "롯데",
@@ -3436,7 +3436,7 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724NCSK0",
       "time": "18:30",
       "away": "NC",
       "home": "SSG",
@@ -3453,7 +3453,7 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724WOHT0",
       "time": "18:30",
       "away": "키움",
       "home": "KIA",
@@ -3470,7 +3470,7 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724LGHH0",
       "time": "18:30",
       "away": "LG",
       "home": "한화",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-16T12:58:38.263Z"
+  "updatedAt": "2026-07-16T15:10:28.197Z"
 }
