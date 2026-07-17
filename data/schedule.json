@@ -2892,12 +2892,12 @@
     },
     {
       "date": "20260717",
-      "gameId": "",
+      "gameId": "20260717KTLG0",
       "time": "18:00",
       "away": "KT",
       "home": "LG",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 6,
+      "homeScore": 1,
       "awayPitcher": "소형준",
       "homePitcher": "웰스",
       "stadium": "잠실",
@@ -2983,8 +2983,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "사우어",
+      "homePitcher": "임찬규",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-17T11:07:24.151Z"
+  "updatedAt": "2026-07-17T12:20:49.752Z"
 }
