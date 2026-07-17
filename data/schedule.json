@@ -2926,17 +2926,17 @@
     },
     {
       "date": "20260717",
-      "gameId": "20260717HTSK0",
+      "gameId": "",
       "time": "18:00",
       "away": "KIA",
       "home": "SSG",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "시라카와",
       "homePitcher": "김민준",
       "stadium": "문학",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-17T01:58:24.359Z"
+  "updatedAt": "2026-07-17T07:22:10.055Z"
 }
