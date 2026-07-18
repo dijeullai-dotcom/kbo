@@ -2988,8 +2988,8 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "사우어",
+      "losePitcher": "임찬규",
       "savePitcher": ""
     },
     {
@@ -3005,8 +3005,8 @@
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "페덱",
+      "losePitcher": "나균안",
       "savePitcher": ""
     },
     {
@@ -3022,26 +3022,26 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "네일",
+      "losePitcher": "해치",
       "savePitcher": ""
     },
     {
       "date": "20260718",
-      "gameId": "",
+      "gameId": "20260718OBNC0",
       "time": "18:00",
       "away": "두산",
       "home": "NC",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 12,
+      "homeScore": 9,
       "awayPitcher": "잭로그",
       "homePitcher": "구창모",
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "타카다",
+      "losePitcher": "류진욱",
+      "savePitcher": "이영하"
     },
     {
       "date": "20260718",
@@ -3056,9 +3056,9 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "박지성",
+      "losePitcher": "이상규",
+      "savePitcher": "원종현"
     },
     {
       "date": "20260719",
@@ -3119,8 +3119,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "최승용",
+      "homePitcher": "토다",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-18T12:33:09.815Z"
+  "updatedAt": "2026-07-18T14:05:12.065Z"
 }
