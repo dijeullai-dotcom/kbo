@@ -3236,13 +3236,13 @@
       "time": "18:30",
       "away": "NC",
       "home": "LG",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": null,
+      "homeScore": null,
       "awayPitcher": "라일리",
       "homePitcher": "톨허스트",
       "stadium": "잠실",
-      "note": "-",
-      "status": "종료",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3323,8 +3323,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "테일러",
+      "homePitcher": "웰스",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-22T10:07:10.755Z"
+  "updatedAt": "2026-07-22T12:03:11.033Z"
 }
