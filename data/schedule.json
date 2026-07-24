@@ -115,9 +115,9 @@
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "전사민",
+      "winPitcher": "",
       "losePitcher": "김재윤",
-      "savePitcher": "김진호"
+      "savePitcher": ""
     },
     {
       "date": "20260603",
@@ -132,8 +132,8 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "조병현",
-      "losePitcher": "조영건",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -166,9 +166,9 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "고영표",
-      "losePitcher": "이정용",
-      "savePitcher": "박영현"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260604",
@@ -184,7 +184,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최준호",
-      "losePitcher": "화이트",
+      "losePitcher": "",
       "savePitcher": "이용찬"
     },
     {
@@ -200,9 +200,9 @@
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "구창모",
+      "winPitcher": "",
       "losePitcher": "원태인",
-      "savePitcher": "전사민"
+      "savePitcher": ""
     },
     {
       "date": "20260604",
@@ -217,9 +217,9 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "전영준",
-      "losePitcher": "배동현",
-      "savePitcher": "조병현"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260604",
@@ -251,9 +251,9 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김진수",
-      "losePitcher": "사우어",
-      "savePitcher": "손주영"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260605",
@@ -353,8 +353,8 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "한승혁",
-      "losePitcher": "한두솔",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -371,7 +371,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최민석",
-      "losePitcher": "안우진",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -421,8 +421,8 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김진호",
-      "losePitcher": "김진수",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -693,8 +693,8 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "장현식",
-      "losePitcher": "김건우",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -728,7 +728,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "오러클린",
-      "losePitcher": "스기모토",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -761,9 +761,9 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "최성영",
-      "losePitcher": "유토",
-      "savePitcher": "전사민"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260612",
@@ -779,7 +779,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "로드리게스",
-      "losePitcher": "톨허스트",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -795,9 +795,9 @@
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "이로운",
+      "winPitcher": "",
       "losePitcher": "장찬희",
-      "savePitcher": "조병현"
+      "savePitcher": ""
     },
     {
       "date": "20260612",
@@ -829,8 +829,8 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "박영현",
-      "losePitcher": "김진호",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -846,7 +846,7 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "조영건",
+      "winPitcher": "",
       "losePitcher": "이민우",
       "savePitcher": ""
     },
@@ -863,9 +863,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김진성",
+      "winPitcher": "",
       "losePitcher": "이민석",
-      "savePitcher": "손주영"
+      "savePitcher": ""
     },
     {
       "date": "20260613",
@@ -881,7 +881,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최지광",
-      "losePitcher": "김민",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -914,9 +914,9 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "한승혁",
-      "losePitcher": "이용준",
-      "savePitcher": "박영현"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260613",
@@ -931,9 +931,9 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "알칸타라",
-      "losePitcher": "박준영",
-      "savePitcher": "유토"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260614",
@@ -1118,7 +1118,7 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "사우어",
+      "winPitcher": "",
       "losePitcher": "타카다",
       "savePitcher": ""
     },
@@ -1136,7 +1136,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "김재윤",
-      "losePitcher": "박지성",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1153,7 +1153,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "박세웅",
-      "losePitcher": "김건우",
+      "losePitcher": "",
       "savePitcher": "최준용"
     },
     {
@@ -1170,7 +1170,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "곽도규",
-      "losePitcher": "리오스",
+      "losePitcher": "",
       "savePitcher": "성영탁"
     },
     {
@@ -1186,7 +1186,7 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "임지민",
+      "winPitcher": "",
       "losePitcher": "박상원",
       "savePitcher": ""
     },
@@ -1204,7 +1204,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "이용찬",
-      "losePitcher": "김민수",
+      "losePitcher": "",
       "savePitcher": "이영하"
     },
     {
@@ -1255,7 +1255,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "양현종",
-      "losePitcher": "톨허스트",
+      "losePitcher": "",
       "savePitcher": "성영탁"
     },
     {
@@ -1271,8 +1271,8 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "테일러",
-      "losePitcher": "에르난데스",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1373,9 +1373,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김영우",
+      "winPitcher": "",
       "losePitcher": "김택연",
-      "savePitcher": "손주영"
+      "savePitcher": ""
     },
     {
       "date": "20260620",
@@ -1390,7 +1390,7 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "주권",
+      "winPitcher": "",
       "losePitcher": "김범수",
       "savePitcher": ""
     },
@@ -1407,8 +1407,8 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "해치",
-      "losePitcher": "김준원",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1424,7 +1424,7 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "장유호",
+      "winPitcher": "장지수",
       "losePitcher": "장찬희",
       "savePitcher": ""
     },
@@ -1714,7 +1714,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "후라도",
-      "losePitcher": "이정용",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1730,7 +1730,7 @@
       "stadium": "사직",
       "note": "-",
       "status": "종료",
-      "winPitcher": "토다",
+      "winPitcher": "",
       "losePitcher": "이민석",
       "savePitcher": ""
     },
@@ -1747,8 +1747,8 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "박영현",
-      "losePitcher": "노경은",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1765,7 +1765,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "벤자민",
-      "losePitcher": "박준영",
+      "losePitcher": "",
       "savePitcher": "이영하"
     },
     {
@@ -1782,7 +1782,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "네일",
-      "losePitcher": "알칸타라",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1901,7 +1901,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "이승현",
-      "losePitcher": "한승혁",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -1917,9 +1917,9 @@
       "stadium": "사직",
       "note": "-",
       "status": "종료",
-      "winPitcher": "리오스",
+      "winPitcher": "",
       "losePitcher": "이이무라",
-      "savePitcher": "손주영"
+      "savePitcher": ""
     },
     {
       "date": "20260627",
@@ -1934,8 +1934,8 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "화이트",
-      "losePitcher": "타케다",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -1952,7 +1952,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "하영민",
-      "losePitcher": "전사민",
+      "losePitcher": "",
       "savePitcher": "원종현"
     },
     {
@@ -2071,7 +2071,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "올러",
-      "losePitcher": "김건우",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2088,7 +2088,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "이승민",
-      "losePitcher": "김태훈",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -2121,8 +2121,8 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "안우진",
-      "losePitcher": "톨허스트",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2172,7 +2172,7 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "손주환",
+      "winPitcher": "",
       "losePitcher": "백정현",
       "savePitcher": ""
     },
@@ -2189,7 +2189,7 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "박영현",
+      "winPitcher": "",
       "losePitcher": "이민우",
       "savePitcher": ""
     },
@@ -2206,9 +2206,9 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김진성",
+      "winPitcher": "",
       "losePitcher": "원종현",
-      "savePitcher": "손주영"
+      "savePitcher": ""
     },
     {
       "date": "20260702",
@@ -2241,7 +2241,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "전상현",
-      "losePitcher": "이건욱",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2258,7 +2258,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "김백산",
-      "losePitcher": "김태경",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2274,8 +2274,8 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "왕옌청",
-      "losePitcher": "오원석",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2291,9 +2291,9 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "임찬규",
-      "losePitcher": "배동현",
-      "savePitcher": "손주영"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260703",
@@ -2308,8 +2308,8 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "화이트",
-      "losePitcher": "웰스",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2326,7 +2326,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "원태인",
-      "losePitcher": "해치",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -2342,7 +2342,7 @@
       "stadium": "광주",
       "note": "-",
       "status": "종료",
-      "winPitcher": "구창모",
+      "winPitcher": "",
       "losePitcher": "황동하",
       "savePitcher": ""
     },
@@ -2360,7 +2360,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "김진욱",
-      "losePitcher": "로건",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2376,7 +2376,7 @@
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "유토",
+      "winPitcher": "",
       "losePitcher": "김택연",
       "savePitcher": "원종현"
     },
@@ -2393,9 +2393,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "장현식",
-      "losePitcher": "에르난데스",
-      "savePitcher": "리오스"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260704",
@@ -2411,7 +2411,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최원태",
-      "losePitcher": "이건욱",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2427,9 +2427,9 @@
       "stadium": "광주",
       "note": "-",
       "status": "종료",
-      "winPitcher": "라일리",
+      "winPitcher": "",
       "losePitcher": "시라카와",
-      "savePitcher": "임지민"
+      "savePitcher": ""
     },
     {
       "date": "20260704",
@@ -2445,7 +2445,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "비슬리",
-      "losePitcher": "고영표",
+      "losePitcher": "",
       "savePitcher": "김원중"
     },
     {
@@ -2462,7 +2462,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최승용",
-      "losePitcher": "박준현",
+      "losePitcher": "",
       "savePitcher": "이영하"
     },
     {
@@ -2479,7 +2479,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최민석",
-      "losePitcher": "김윤하",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2513,7 +2513,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "양창섭",
-      "losePitcher": "김건우",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2546,9 +2546,9 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "스기모토",
+      "winPitcher": "",
       "losePitcher": "정현수",
-      "savePitcher": "박영현"
+      "savePitcher": ""
     },
     {
       "date": "20260707",
@@ -2563,9 +2563,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "김민준",
+      "winPitcher": "",
       "losePitcher": "벤자민",
-      "savePitcher": "조병현"
+      "savePitcher": ""
     },
     {
       "date": "20260707",
@@ -2581,7 +2581,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "후라도",
-      "losePitcher": "톨허스트",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2614,9 +2614,9 @@
       "stadium": "수원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "소형준",
-      "losePitcher": "안우진",
-      "savePitcher": "박영현"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260707",
@@ -2631,9 +2631,9 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "테일러",
-      "losePitcher": "박준영",
-      "savePitcher": "임지민"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260708",
@@ -2734,7 +2734,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "잭로그",
-      "losePitcher": "해치",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -2751,7 +2751,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "이승민",
-      "losePitcher": "리오스",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -2802,7 +2802,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "이상규",
-      "losePitcher": "토다",
+      "losePitcher": "",
       "savePitcher": "이민우"
     },
     {
@@ -2818,9 +2818,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "로건",
-      "losePitcher": "톨허스트",
-      "savePitcher": "박영현"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260716",
@@ -2852,7 +2852,7 @@
       "stadium": "문학",
       "note": "-",
       "status": "종료",
-      "winPitcher": "아빌라",
+      "winPitcher": "",
       "losePitcher": "올러",
       "savePitcher": ""
     },
@@ -2869,7 +2869,7 @@
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "라일리",
+      "winPitcher": "",
       "losePitcher": "곽빈",
       "savePitcher": ""
     },
@@ -2886,8 +2886,8 @@
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "알칸타라",
-      "losePitcher": "화이트",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3073,8 +3073,8 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "고영표",
-      "losePitcher": "송승기",
+      "winPitcher": "",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3108,7 +3108,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "전상현",
-      "losePitcher": "전영준",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3125,7 +3125,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "최승용",
-      "losePitcher": "토다",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3158,9 +3158,9 @@
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "전사민",
-      "losePitcher": "김윤식",
-      "savePitcher": "임지민"
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
     },
     {
       "date": "20260721",
@@ -3176,7 +3176,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "비슬리",
-      "losePitcher": "타케다",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3193,7 +3193,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "황동하",
-      "losePitcher": "박준영",
+      "losePitcher": "",
       "savePitcher": ""
     },
     {
@@ -3227,7 +3227,7 @@
       "note": "-",
       "status": "종료",
       "winPitcher": "김태훈",
-      "losePitcher": "박정훈",
+      "losePitcher": "",
       "savePitcher": "김재윤"
     },
     {
@@ -3402,46 +3402,46 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724SSOB0",
       "time": "18:30",
       "away": "삼성",
       "home": "두산",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 15,
+      "homeScore": 4,
       "awayPitcher": "페덱",
       "homePitcher": "최민석",
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "페덱",
+      "losePitcher": "최민석",
       "savePitcher": ""
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724KTLT0",
       "time": "18:30",
       "away": "KT",
       "home": "롯데",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 5,
+      "homeScore": 4,
       "awayPitcher": "로건",
       "homePitcher": "나균안",
       "stadium": "사직",
       "note": "-",
       "status": "종료",
       "winPitcher": "",
-      "losePitcher": "",
+      "losePitcher": "나균안",
       "savePitcher": ""
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724NCSK0",
       "time": "18:30",
       "away": "NC",
       "home": "SSG",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 3,
+      "homeScore": 7,
       "awayPitcher": "구창모",
       "homePitcher": "해치",
       "stadium": "문학",
@@ -3453,35 +3453,35 @@
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724WOHT0",
       "time": "18:30",
       "away": "키움",
       "home": "KIA",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 8,
+      "homeScore": 5,
       "awayPitcher": "안우진",
       "homePitcher": "네일",
       "stadium": "광주",
       "note": "-",
       "status": "종료",
       "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "losePitcher": "조상우",
+      "savePitcher": "원종현"
     },
     {
       "date": "20260724",
-      "gameId": "",
+      "gameId": "20260724LGHH0",
       "time": "18:30",
       "away": "LG",
       "home": "한화",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 4,
+      "homeScore": 8,
       "awayPitcher": "임찬규",
       "homePitcher": "박준영",
       "stadium": "대전",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
+      "winPitcher": "장지수",
       "losePitcher": "",
       "savePitcher": ""
     },
@@ -3493,8 +3493,8 @@
       "home": "두산",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "원태인",
+      "homePitcher": "잭로그",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -3510,8 +3510,8 @@
       "home": "롯데",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "소형준",
+      "homePitcher": "김진욱",
       "stadium": "사직",
       "note": "-",
       "status": "예정",
@@ -3527,8 +3527,8 @@
       "home": "SSG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "토다",
+      "homePitcher": "김건우",
       "stadium": "문학",
       "note": "-",
       "status": "예정",
@@ -3544,8 +3544,8 @@
       "home": "KIA",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "박준현",
+      "homePitcher": "양현종",
       "stadium": "광주",
       "note": "-",
       "status": "예정",
@@ -3561,8 +3561,8 @@
       "home": "한화",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "송승기",
+      "homePitcher": "류현진",
       "stadium": "대전",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-24T11:51:33.579Z"
+  "updatedAt": "2026-07-24T13:28:35.498Z"
 }
