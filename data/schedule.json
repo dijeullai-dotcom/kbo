@@ -3572,12 +3572,12 @@
     },
     {
       "date": "20260726",
-      "gameId": "",
+      "gameId": "20260726SSOB0",
       "time": "18:00",
       "away": "삼성",
       "home": "두산",
       "awayScore": 0,
-      "homeScore": 0,
+      "homeScore": 7,
       "awayPitcher": "보스",
       "homePitcher": "곽빈",
       "stadium": "잠실",
@@ -3589,12 +3589,12 @@
     },
     {
       "date": "20260726",
-      "gameId": "",
+      "gameId": "20260726KTLT0",
       "time": "18:00",
       "away": "KT",
       "home": "롯데",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 1,
+      "homeScore": 15,
       "awayPitcher": "사우어",
       "homePitcher": "비슬리",
       "stadium": "사직",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-26T11:10:55.356Z"
+  "updatedAt": "2026-07-26T12:18:18.364Z"
 }
