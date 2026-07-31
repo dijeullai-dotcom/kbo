@@ -4003,8 +4003,8 @@
       "home": "두산",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "카라스코",
+      "homePitcher": "곽빈",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -4037,8 +4037,8 @@
       "home": "KT",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "짐머맨",
+      "homePitcher": "배제성",
       "stadium": "수원",
       "note": "-",
       "status": "예정",
@@ -6281,5 +6281,5 @@
     "20260829",
     "20260830"
   ],
-  "updatedAt": "2026-07-31T10:46:01.136Z"
+  "updatedAt": "2026-07-31T12:48:36.617Z"
 }
