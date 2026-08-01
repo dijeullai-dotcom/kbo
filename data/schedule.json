@@ -1889,7 +1889,7 @@
     },
     {
       "date": "20260801",
-      "gameId": "20260801SSLT0",
+      "gameId": "",
       "time": "18:00",
       "away": "삼성",
       "home": "롯데",
@@ -1898,8 +1898,8 @@
       "awayPitcher": "보스",
       "homePitcher": "비슬리",
       "stadium": "사직",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -1923,7 +1923,7 @@
     },
     {
       "date": "20260801",
-      "gameId": "20260801HTNC0",
+      "gameId": "",
       "time": "18:00",
       "away": "KIA",
       "home": "NC",
@@ -1932,8 +1932,8 @@
       "awayPitcher": "황동하",
       "homePitcher": "라일리",
       "stadium": "창원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -1997,8 +1997,8 @@
       "home": "롯데",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "보스",
+      "homePitcher": "비슬리",
       "stadium": "사직",
       "note": "-",
       "status": "예정",
@@ -2031,8 +2031,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "황동하",
+      "homePitcher": "라일리",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-01T02:04:49.605Z"
+  "updatedAt": "2026-08-01T07:31:16.419Z"
 }
