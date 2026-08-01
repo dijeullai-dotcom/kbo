@@ -1872,17 +1872,17 @@
     },
     {
       "date": "20260801",
-      "gameId": "20260801LGOB0",
+      "gameId": "",
       "time": "18:00",
       "away": "LG",
       "home": "두산",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "카라스코",
       "homePitcher": "곽빈",
       "stadium": "잠실",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -1906,17 +1906,17 @@
     },
     {
       "date": "20260801",
-      "gameId": "20260801HHKT0",
+      "gameId": "",
       "time": "18:00",
       "away": "한화",
       "home": "KT",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "짐머맨",
       "homePitcher": "배제성",
       "stadium": "수원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -1940,17 +1940,17 @@
     },
     {
       "date": "20260801",
-      "gameId": "20260801SKWO0",
+      "gameId": "",
       "time": "18:00",
       "away": "SSG",
       "home": "키움",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "타케다",
       "homePitcher": "김윤하",
       "stadium": "고척",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-01T07:31:16.419Z"
+  "updatedAt": "2026-08-01T09:34:37.170Z"
 }
