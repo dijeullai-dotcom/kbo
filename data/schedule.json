@@ -2042,7 +2042,7 @@
     },
     {
       "date": "20260804",
-      "gameId": "20260804NCOB0",
+      "gameId": "",
       "time": "18:30",
       "away": "NC",
       "home": "두산",
@@ -2051,8 +2051,8 @@
       "awayPitcher": "라일리",
       "homePitcher": "최승용",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -2110,7 +2110,7 @@
     },
     {
       "date": "20260804",
-      "gameId": "20260804KTHT0",
+      "gameId": "",
       "time": "18:30",
       "away": "KT",
       "home": "KIA",
@@ -2119,8 +2119,8 @@
       "awayPitcher": "오원석",
       "homePitcher": "올러",
       "stadium": "광주",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -2133,8 +2133,8 @@
       "home": "두산",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "라일리",
+      "homePitcher": "최민석",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-04T01:49:01.600Z"
+  "updatedAt": "2026-08-04T07:43:21.529Z"
 }
