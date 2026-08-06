@@ -2297,7 +2297,7 @@
     },
     {
       "date": "20260807",
-      "gameId": "20260807HTLG0",
+      "gameId": "",
       "time": "18:30",
       "away": "KIA",
       "home": "LG",
@@ -2306,15 +2306,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260807",
-      "gameId": "20260807OBSS0",
+      "gameId": "",
       "time": "18:30",
       "away": "두산",
       "home": "삼성",
@@ -2323,15 +2323,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대구",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260807",
-      "gameId": "20260807LTKT0",
+      "gameId": "",
       "time": "18:30",
       "away": "롯데",
       "home": "KT",
@@ -2340,15 +2340,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "수원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260807",
-      "gameId": "20260807SKNC0",
+      "gameId": "",
       "time": "18:30",
       "away": "SSG",
       "home": "NC",
@@ -2357,15 +2357,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "창원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260807",
-      "gameId": "20260807WOHH0",
+      "gameId": "",
       "time": "18:30",
       "away": "키움",
       "home": "한화",
@@ -2374,15 +2374,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대전",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260808",
-      "gameId": "20260808HTLG0",
+      "gameId": "",
       "time": "18:00",
       "away": "KIA",
       "home": "LG",
@@ -2391,15 +2391,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260808",
-      "gameId": "20260808OBSS0",
+      "gameId": "",
       "time": "18:00",
       "away": "두산",
       "home": "삼성",
@@ -2408,15 +2408,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대구",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260808",
-      "gameId": "20260808LTKT0",
+      "gameId": "",
       "time": "18:00",
       "away": "롯데",
       "home": "KT",
@@ -2425,15 +2425,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "수원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260808",
-      "gameId": "20260808SKNC0",
+      "gameId": "",
       "time": "18:00",
       "away": "SSG",
       "home": "NC",
@@ -2442,15 +2442,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "창원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260808",
-      "gameId": "20260808WOHH0",
+      "gameId": "",
       "time": "18:00",
       "away": "키움",
       "home": "한화",
@@ -2459,15 +2459,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대전",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260809",
-      "gameId": "20260809HTLG0",
+      "gameId": "",
       "time": "18:00",
       "away": "KIA",
       "home": "LG",
@@ -2476,15 +2476,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260809",
-      "gameId": "20260809OBSS0",
+      "gameId": "",
       "time": "18:00",
       "away": "두산",
       "home": "삼성",
@@ -2493,15 +2493,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대구",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260809",
-      "gameId": "20260809LTKT0",
+      "gameId": "",
       "time": "18:00",
       "away": "롯데",
       "home": "KT",
@@ -2510,15 +2510,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "수원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260809",
-      "gameId": "20260809SKNC0",
+      "gameId": "",
       "time": "18:00",
       "away": "SSG",
       "home": "NC",
@@ -2527,15 +2527,15 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "창원",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260809",
-      "gameId": "20260809WOHH0",
+      "gameId": "",
       "time": "18:00",
       "away": "키움",
       "home": "한화",
@@ -2544,8 +2544,8 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대전",
-      "note": "-",
-      "status": "예정",
+      "note": "폭염취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -2553,7 +2553,7 @@
     {
       "date": "20260811",
       "gameId": "20260811HHOB0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "두산",
       "awayScore": null,
@@ -2570,7 +2570,7 @@
     {
       "date": "20260811",
       "gameId": "20260811LTSK0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "SSG",
       "awayScore": null,
@@ -2587,7 +2587,7 @@
     {
       "date": "20260811",
       "gameId": "20260811SSHT0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "KIA",
       "awayScore": null,
@@ -2604,7 +2604,7 @@
     {
       "date": "20260811",
       "gameId": "20260811KTNC0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "NC",
       "awayScore": null,
@@ -2621,7 +2621,7 @@
     {
       "date": "20260811",
       "gameId": "20260811LGWO0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "키움",
       "awayScore": null,
@@ -2638,7 +2638,7 @@
     {
       "date": "20260812",
       "gameId": "20260812HHOB0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "두산",
       "awayScore": null,
@@ -2655,7 +2655,7 @@
     {
       "date": "20260812",
       "gameId": "20260812LTSK0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "SSG",
       "awayScore": null,
@@ -2672,7 +2672,7 @@
     {
       "date": "20260812",
       "gameId": "20260812SSHT0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "KIA",
       "awayScore": null,
@@ -2689,7 +2689,7 @@
     {
       "date": "20260812",
       "gameId": "20260812KTNC0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "NC",
       "awayScore": null,
@@ -2706,7 +2706,7 @@
     {
       "date": "20260812",
       "gameId": "20260812LGWO0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "키움",
       "awayScore": null,
@@ -2723,7 +2723,7 @@
     {
       "date": "20260813",
       "gameId": "20260813HHOB0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "두산",
       "awayScore": null,
@@ -2740,7 +2740,7 @@
     {
       "date": "20260813",
       "gameId": "20260813LTSK0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "SSG",
       "awayScore": null,
@@ -2757,7 +2757,7 @@
     {
       "date": "20260813",
       "gameId": "20260813SSHT0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "KIA",
       "awayScore": null,
@@ -2774,7 +2774,7 @@
     {
       "date": "20260813",
       "gameId": "20260813KTNC0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "NC",
       "awayScore": null,
@@ -2791,7 +2791,7 @@
     {
       "date": "20260813",
       "gameId": "20260813LGWO0",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "키움",
       "awayScore": null,
@@ -2808,7 +2808,7 @@
     {
       "date": "20260814",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "LG",
       "awayScore": null,
@@ -2825,7 +2825,7 @@
     {
       "date": "20260814",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "삼성",
       "awayScore": null,
@@ -2842,7 +2842,7 @@
     {
       "date": "20260814",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "롯데",
       "awayScore": null,
@@ -2859,7 +2859,7 @@
     {
       "date": "20260814",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "KIA",
       "awayScore": null,
@@ -2876,7 +2876,7 @@
     {
       "date": "20260814",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "키움",
       "home": "KT",
       "awayScore": null,
@@ -2893,7 +2893,7 @@
     {
       "date": "20260815",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "SSG",
       "home": "LG",
       "awayScore": null,
@@ -2910,7 +2910,7 @@
     {
       "date": "20260815",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "한화",
       "home": "삼성",
       "awayScore": null,
@@ -2927,7 +2927,7 @@
     {
       "date": "20260815",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "NC",
       "home": "롯데",
       "awayScore": null,
@@ -2944,7 +2944,7 @@
     {
       "date": "20260815",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "두산",
       "home": "KIA",
       "awayScore": null,
@@ -2961,7 +2961,7 @@
     {
       "date": "20260815",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "키움",
       "home": "KT",
       "awayScore": null,
@@ -2978,7 +2978,7 @@
     {
       "date": "20260816",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "SSG",
       "home": "LG",
       "awayScore": null,
@@ -2995,7 +2995,7 @@
     {
       "date": "20260816",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "한화",
       "home": "삼성",
       "awayScore": null,
@@ -3012,7 +3012,7 @@
     {
       "date": "20260816",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "NC",
       "home": "롯데",
       "awayScore": null,
@@ -3029,7 +3029,7 @@
     {
       "date": "20260816",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "두산",
       "home": "KIA",
       "awayScore": null,
@@ -3046,7 +3046,7 @@
     {
       "date": "20260816",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "키움",
       "home": "KT",
       "awayScore": null,
@@ -3063,7 +3063,7 @@
     {
       "date": "20260818",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "LG",
       "awayScore": null,
@@ -3080,7 +3080,7 @@
     {
       "date": "20260818",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "삼성",
       "awayScore": null,
@@ -3097,7 +3097,7 @@
     {
       "date": "20260818",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "키움",
       "home": "롯데",
       "awayScore": null,
@@ -3114,7 +3114,7 @@
     {
       "date": "20260818",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "NC",
       "awayScore": null,
@@ -3131,7 +3131,7 @@
     {
       "date": "20260818",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "한화",
       "awayScore": null,
@@ -3148,7 +3148,7 @@
     {
       "date": "20260819",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "LG",
       "awayScore": null,
@@ -3165,7 +3165,7 @@
     {
       "date": "20260819",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "삼성",
       "awayScore": null,
@@ -3182,7 +3182,7 @@
     {
       "date": "20260819",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "키움",
       "home": "롯데",
       "awayScore": null,
@@ -3199,7 +3199,7 @@
     {
       "date": "20260819",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "NC",
       "awayScore": null,
@@ -3216,7 +3216,7 @@
     {
       "date": "20260819",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "한화",
       "awayScore": null,
@@ -3233,7 +3233,7 @@
     {
       "date": "20260820",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "LG",
       "awayScore": null,
@@ -3250,7 +3250,7 @@
     {
       "date": "20260820",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "삼성",
       "awayScore": null,
@@ -3267,7 +3267,7 @@
     {
       "date": "20260820",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "키움",
       "home": "롯데",
       "awayScore": null,
@@ -3284,7 +3284,7 @@
     {
       "date": "20260820",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "NC",
       "awayScore": null,
@@ -3301,7 +3301,7 @@
     {
       "date": "20260820",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "한화",
       "awayScore": null,
@@ -3318,7 +3318,7 @@
     {
       "date": "20260821",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "두산",
       "awayScore": null,
@@ -3335,7 +3335,7 @@
     {
       "date": "20260821",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "SSG",
       "awayScore": null,
@@ -3352,7 +3352,7 @@
     {
       "date": "20260821",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "NC",
       "awayScore": null,
@@ -3369,7 +3369,7 @@
     {
       "date": "20260821",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "한화",
       "awayScore": null,
@@ -3386,7 +3386,7 @@
     {
       "date": "20260821",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "키움",
       "awayScore": null,
@@ -3404,6 +3404,23 @@
       "date": "20260822",
       "gameId": "",
       "time": "18:00",
+      "away": "KIA",
+      "home": "키움",
+      "awayScore": null,
+      "homeScore": null,
+      "awayPitcher": "",
+      "homePitcher": "",
+      "stadium": "고척",
+      "note": "-",
+      "status": "예정",
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
+    },
+    {
+      "date": "20260822",
+      "gameId": "",
+      "time": "19:00",
       "away": "롯데",
       "home": "두산",
       "awayScore": null,
@@ -3420,7 +3437,7 @@
     {
       "date": "20260822",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "KT",
       "home": "SSG",
       "awayScore": null,
@@ -3437,7 +3454,7 @@
     {
       "date": "20260822",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "삼성",
       "home": "NC",
       "awayScore": null,
@@ -3454,7 +3471,7 @@
     {
       "date": "20260822",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "LG",
       "home": "한화",
       "awayScore": null,
@@ -3462,23 +3479,6 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "대전",
-      "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
-    },
-    {
-      "date": "20260822",
-      "gameId": "",
-      "time": "18:00",
-      "away": "KIA",
-      "home": "키움",
-      "awayScore": null,
-      "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
-      "stadium": "고척",
       "note": "-",
       "status": "예정",
       "winPitcher": "",
@@ -3505,7 +3505,7 @@
     {
       "date": "20260823",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "롯데",
       "home": "두산",
       "awayScore": null,
@@ -3522,7 +3522,7 @@
     {
       "date": "20260823",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "KT",
       "home": "SSG",
       "awayScore": null,
@@ -3539,7 +3539,7 @@
     {
       "date": "20260823",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "삼성",
       "home": "NC",
       "awayScore": null,
@@ -3556,7 +3556,7 @@
     {
       "date": "20260823",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "LG",
       "home": "한화",
       "awayScore": null,
@@ -3573,7 +3573,7 @@
     {
       "date": "20260825",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "LG",
       "awayScore": null,
@@ -3590,7 +3590,7 @@
     {
       "date": "20260825",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "SSG",
       "awayScore": null,
@@ -3607,7 +3607,7 @@
     {
       "date": "20260825",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "KIA",
       "awayScore": null,
@@ -3624,7 +3624,7 @@
     {
       "date": "20260825",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "KT",
       "awayScore": null,
@@ -3641,7 +3641,7 @@
     {
       "date": "20260825",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "키움",
       "awayScore": null,
@@ -3658,7 +3658,7 @@
     {
       "date": "20260826",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "LG",
       "awayScore": null,
@@ -3675,7 +3675,7 @@
     {
       "date": "20260826",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "SSG",
       "awayScore": null,
@@ -3692,7 +3692,7 @@
     {
       "date": "20260826",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "KIA",
       "awayScore": null,
@@ -3709,7 +3709,7 @@
     {
       "date": "20260826",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "KT",
       "awayScore": null,
@@ -3726,7 +3726,7 @@
     {
       "date": "20260826",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "키움",
       "awayScore": null,
@@ -3743,7 +3743,7 @@
     {
       "date": "20260827",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "LG",
       "awayScore": null,
@@ -3760,7 +3760,7 @@
     {
       "date": "20260827",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "SSG",
       "awayScore": null,
@@ -3777,7 +3777,7 @@
     {
       "date": "20260827",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "KIA",
       "awayScore": null,
@@ -3794,7 +3794,7 @@
     {
       "date": "20260827",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "KT",
       "awayScore": null,
@@ -3811,7 +3811,7 @@
     {
       "date": "20260827",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "키움",
       "awayScore": null,
@@ -3828,7 +3828,7 @@
     {
       "date": "20260828",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "키움",
       "home": "두산",
       "awayScore": null,
@@ -3845,7 +3845,7 @@
     {
       "date": "20260828",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "삼성",
       "awayScore": null,
@@ -3862,7 +3862,7 @@
     {
       "date": "20260828",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "롯데",
       "awayScore": null,
@@ -3879,7 +3879,7 @@
     {
       "date": "20260828",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "KIA",
       "awayScore": null,
@@ -3896,7 +3896,7 @@
     {
       "date": "20260828",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "한화",
       "awayScore": null,
@@ -3913,7 +3913,7 @@
     {
       "date": "20260829",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "키움",
       "home": "두산",
       "awayScore": null,
@@ -3930,7 +3930,7 @@
     {
       "date": "20260829",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "KT",
       "home": "삼성",
       "awayScore": null,
@@ -3947,7 +3947,7 @@
     {
       "date": "20260829",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "LG",
       "home": "롯데",
       "awayScore": null,
@@ -3964,7 +3964,7 @@
     {
       "date": "20260829",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "SSG",
       "home": "KIA",
       "awayScore": null,
@@ -3981,7 +3981,7 @@
     {
       "date": "20260829",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "NC",
       "home": "한화",
       "awayScore": null,
@@ -3998,7 +3998,7 @@
     {
       "date": "20260830",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "키움",
       "home": "두산",
       "awayScore": null,
@@ -4015,7 +4015,7 @@
     {
       "date": "20260830",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "KT",
       "home": "삼성",
       "awayScore": null,
@@ -4032,7 +4032,7 @@
     {
       "date": "20260830",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "LG",
       "home": "롯데",
       "awayScore": null,
@@ -4049,7 +4049,7 @@
     {
       "date": "20260830",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "SSG",
       "home": "KIA",
       "awayScore": null,
@@ -4066,7 +4066,7 @@
     {
       "date": "20260830",
       "gameId": "",
-      "time": "18:00",
+      "time": "19:00",
       "away": "NC",
       "home": "한화",
       "awayScore": null,
@@ -4083,7 +4083,7 @@
     {
       "date": "20260901",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "두산",
       "awayScore": null,
@@ -4100,7 +4100,7 @@
     {
       "date": "20260901",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "삼성",
       "awayScore": null,
@@ -4117,7 +4117,7 @@
     {
       "date": "20260901",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "KT",
       "awayScore": null,
@@ -4134,7 +4134,7 @@
     {
       "date": "20260901",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "NC",
       "awayScore": null,
@@ -4151,7 +4151,7 @@
     {
       "date": "20260901",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "키움",
       "awayScore": null,
@@ -4168,7 +4168,7 @@
     {
       "date": "20260902",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "두산",
       "awayScore": null,
@@ -4185,7 +4185,7 @@
     {
       "date": "20260902",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "삼성",
       "awayScore": null,
@@ -4202,7 +4202,7 @@
     {
       "date": "20260902",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "KT",
       "awayScore": null,
@@ -4219,7 +4219,7 @@
     {
       "date": "20260902",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "NC",
       "awayScore": null,
@@ -4236,7 +4236,7 @@
     {
       "date": "20260902",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "키움",
       "awayScore": null,
@@ -4253,7 +4253,7 @@
     {
       "date": "20260903",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "LG",
       "home": "두산",
       "awayScore": null,
@@ -4270,7 +4270,7 @@
     {
       "date": "20260903",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "롯데",
       "home": "삼성",
       "awayScore": null,
@@ -4287,7 +4287,7 @@
     {
       "date": "20260903",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "KT",
       "awayScore": null,
@@ -4304,7 +4304,7 @@
     {
       "date": "20260903",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KIA",
       "home": "NC",
       "awayScore": null,
@@ -4321,7 +4321,7 @@
     {
       "date": "20260903",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "SSG",
       "home": "키움",
       "awayScore": null,
@@ -4338,7 +4338,7 @@
     {
       "date": "20260904",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "삼성",
       "home": "LG",
       "awayScore": null,
@@ -4355,7 +4355,7 @@
     {
       "date": "20260904",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "한화",
       "home": "롯데",
       "awayScore": null,
@@ -4372,7 +4372,7 @@
     {
       "date": "20260904",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "두산",
       "home": "SSG",
       "awayScore": null,
@@ -4389,7 +4389,7 @@
     {
       "date": "20260904",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "KT",
       "home": "KIA",
       "awayScore": null,
@@ -4406,7 +4406,7 @@
     {
       "date": "20260904",
       "gameId": "",
-      "time": "18:30",
+      "time": "19:00",
       "away": "NC",
       "home": "키움",
       "awayScore": null,
@@ -4423,7 +4423,24 @@
     {
       "date": "20260905",
       "gameId": "",
-      "time": "17:00",
+      "time": "18:00",
+      "away": "NC",
+      "home": "키움",
+      "awayScore": null,
+      "homeScore": null,
+      "awayPitcher": "",
+      "homePitcher": "",
+      "stadium": "고척",
+      "note": "-",
+      "status": "예정",
+      "winPitcher": "",
+      "losePitcher": "",
+      "savePitcher": ""
+    },
+    {
+      "date": "20260905",
+      "gameId": "",
+      "time": "19:00",
       "away": "삼성",
       "home": "LG",
       "awayScore": null,
@@ -4440,7 +4457,7 @@
     {
       "date": "20260905",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "한화",
       "home": "롯데",
       "awayScore": null,
@@ -4457,7 +4474,7 @@
     {
       "date": "20260905",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "두산",
       "home": "SSG",
       "awayScore": null,
@@ -4474,7 +4491,7 @@
     {
       "date": "20260905",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "KT",
       "home": "KIA",
       "awayScore": null,
@@ -4489,9 +4506,9 @@
       "savePitcher": ""
     },
     {
-      "date": "20260905",
+      "date": "20260906",
       "gameId": "",
-      "time": "17:00",
+      "time": "14:00",
       "away": "NC",
       "home": "키움",
       "awayScore": null,
@@ -4508,7 +4525,7 @@
     {
       "date": "20260906",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "삼성",
       "home": "LG",
       "awayScore": null,
@@ -4525,7 +4542,7 @@
     {
       "date": "20260906",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "한화",
       "home": "롯데",
       "awayScore": null,
@@ -4542,7 +4559,7 @@
     {
       "date": "20260906",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "두산",
       "home": "SSG",
       "awayScore": null,
@@ -4559,7 +4576,7 @@
     {
       "date": "20260906",
       "gameId": "",
-      "time": "17:00",
+      "time": "19:00",
       "away": "KT",
       "home": "KIA",
       "awayScore": null,
@@ -4567,23 +4584,6 @@
       "awayPitcher": "",
       "homePitcher": "",
       "stadium": "광주",
-      "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
-    },
-    {
-      "date": "20260906",
-      "gameId": "",
-      "time": "17:00",
-      "away": "NC",
-      "home": "키움",
-      "awayScore": null,
-      "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
-      "stadium": "고척",
       "note": "-",
       "status": "예정",
       "winPitcher": "",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-06T07:44:08.257Z"
+  "updatedAt": "2026-08-06T10:18:57.462Z"
 }
