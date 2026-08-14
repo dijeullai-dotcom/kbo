@@ -2898,8 +2898,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "김건우",
+      "homePitcher": "박시원",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -2915,8 +2915,8 @@
       "home": "삼성",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "박준영",
+      "homePitcher": "양창섭",
       "stadium": "대구",
       "note": "-",
       "status": "예정",
@@ -2966,8 +2966,8 @@
       "home": "KT",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "하영민",
+      "homePitcher": "오원석",
       "stadium": "수원",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-14T12:06:34.756Z"
+  "updatedAt": "2026-08-14T13:41:05.210Z"
 }
