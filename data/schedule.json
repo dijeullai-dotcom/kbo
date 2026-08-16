@@ -3011,7 +3011,7 @@
     },
     {
       "date": "20260816",
-      "gameId": "20260816NCLT0",
+      "gameId": "",
       "time": "19:00",
       "away": "NC",
       "home": "롯데",
@@ -3020,8 +3020,8 @@
       "awayPitcher": "라일리",
       "homePitcher": "비슬리",
       "stadium": "사직",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-16T06:54:35.574Z"
+  "updatedAt": "2026-08-16T07:34:32.390Z"
 }
