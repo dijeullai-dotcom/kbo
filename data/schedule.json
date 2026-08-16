@@ -2994,7 +2994,7 @@
     },
     {
       "date": "20260816",
-      "gameId": "20260816HHSS0",
+      "gameId": "",
       "time": "19:00",
       "away": "한화",
       "home": "삼성",
@@ -3003,7 +3003,7 @@
       "awayPitcher": "왕옌청",
       "homePitcher": "페덱",
       "stadium": "대구",
-      "note": "-",
+      "note": "그라운드사정",
       "status": "예정",
       "winPitcher": "",
       "losePitcher": "",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-16T07:34:32.390Z"
+  "updatedAt": "2026-08-16T07:58:25.277Z"
 }
