@@ -2977,17 +2977,17 @@
     },
     {
       "date": "20260816",
-      "gameId": "20260816SKLG0",
+      "gameId": "",
       "time": "19:00",
       "away": "SSG",
       "home": "LG",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "아빌라",
       "homePitcher": "카라스코",
       "stadium": "잠실",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3045,17 +3045,17 @@
     },
     {
       "date": "20260816",
-      "gameId": "20260816WOKT0",
+      "gameId": "",
       "time": "19:00",
       "away": "키움",
       "home": "KT",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "김윤하",
       "homePitcher": "로건",
       "stadium": "수원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-16T09:04:22.280Z"
+  "updatedAt": "2026-08-16T09:38:17.096Z"
 }
