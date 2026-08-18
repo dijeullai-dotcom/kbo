@@ -3153,8 +3153,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "대니엘",
+      "homePitcher": "톨허스트",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-18T12:15:38.087Z"
+  "updatedAt": "2026-08-18T13:14:03.795Z"
 }
