@@ -3198,34 +3198,34 @@
     },
     {
       "date": "20260819",
-      "gameId": "20260819OBNC0",
+      "gameId": "",
       "time": "19:00",
       "away": "두산",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "최민석",
       "homePitcher": "테일러",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260819",
-      "gameId": "20260819HTHH0",
+      "gameId": "",
       "time": "19:00",
       "away": "KIA",
       "home": "한화",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "시라카와",
       "homePitcher": "화이트",
       "stadium": "대전",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-19T09:06:26.134Z"
+  "updatedAt": "2026-08-19T09:48:12.269Z"
 }
