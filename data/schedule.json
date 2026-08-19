@@ -3238,8 +3238,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "고영표",
+      "homePitcher": "박시원",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -3289,8 +3289,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "잭로그",
+      "homePitcher": "구창모",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-19T12:15:36.770Z"
+  "updatedAt": "2026-08-19T13:15:00.968Z"
 }
