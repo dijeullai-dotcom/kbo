@@ -3459,8 +3459,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "이승현",
+      "homePitcher": "원종해",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-21T12:02:50.965Z"
+  "updatedAt": "2026-08-21T13:07:11.874Z"
 }
