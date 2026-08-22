@@ -3406,16 +3406,16 @@
       "time": "18:00",
       "away": "KIA",
       "home": "키움",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 1,
+      "homeScore": 3,
       "awayPitcher": "올러",
       "homePitcher": "안우진",
       "stadium": "고척",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "안우진",
+      "losePitcher": "올러",
+      "savePitcher": "유토"
     },
     {
       "date": "20260822",
@@ -3453,20 +3453,20 @@
     },
     {
       "date": "20260822",
-      "gameId": "",
+      "gameId": "20260822SSNC0",
       "time": "19:00",
       "away": "삼성",
       "home": "NC",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 8,
+      "homeScore": 6,
       "awayPitcher": "이승현",
       "homePitcher": "원종해",
       "stadium": "창원",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "이승민",
+      "losePitcher": "배재환",
+      "savePitcher": "김재윤"
     },
     {
       "date": "20260822",
@@ -3544,8 +3544,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "페덱",
+      "homePitcher": "라일리",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T13:19:31.204Z"
+  "updatedAt": "2026-08-22T13:49:41.867Z"
 }
