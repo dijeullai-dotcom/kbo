@@ -3402,17 +3402,17 @@
     },
     {
       "date": "20260822",
-      "gameId": "20260822HTWO0",
+      "gameId": "",
       "time": "18:00",
       "away": "KIA",
       "home": "키움",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "올러",
       "homePitcher": "안우진",
       "stadium": "고척",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3561,8 +3561,8 @@
       "home": "한화",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "카라스코",
+      "homePitcher": "박준영",
       "stadium": "대전",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T07:58:59.522Z"
+  "updatedAt": "2026-08-22T08:40:50.353Z"
 }
