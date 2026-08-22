@@ -3470,7 +3470,7 @@
     },
     {
       "date": "20260822",
-      "gameId": "20260822LGHH0",
+      "gameId": "",
       "time": "19:00",
       "away": "LG",
       "home": "한화",
@@ -3479,8 +3479,8 @@
       "awayPitcher": "카라스코",
       "homePitcher": "박준영",
       "stadium": "대전",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3510,8 +3510,8 @@
       "home": "두산",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "박세웅",
+      "homePitcher": "곽빈",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T07:34:48.052Z"
+  "updatedAt": "2026-08-22T07:58:59.522Z"
 }
