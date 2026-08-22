@@ -3419,7 +3419,7 @@
     },
     {
       "date": "20260822",
-      "gameId": "20260822LTOB0",
+      "gameId": "",
       "time": "19:00",
       "away": "롯데",
       "home": "두산",
@@ -3428,15 +3428,15 @@
       "awayPitcher": "박세웅",
       "homePitcher": "곽빈",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260822",
-      "gameId": "20260822KTSK0",
+      "gameId": "",
       "time": "19:00",
       "away": "KT",
       "home": "SSG",
@@ -3445,8 +3445,8 @@
       "awayPitcher": "로건",
       "homePitcher": "아빌라",
       "stadium": "문학",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3527,8 +3527,8 @@
       "home": "SSG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "로건",
+      "homePitcher": "아빌라",
       "stadium": "문학",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T06:54:25.896Z"
+  "updatedAt": "2026-08-22T07:34:48.052Z"
 }
