@@ -3453,17 +3453,17 @@
     },
     {
       "date": "20260822",
-      "gameId": "20260822SSNC0",
+      "gameId": "",
       "time": "19:00",
       "away": "삼성",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "이승현",
       "homePitcher": "원종해",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T08:40:50.353Z"
+  "updatedAt": "2026-08-22T09:10:52.175Z"
 }
