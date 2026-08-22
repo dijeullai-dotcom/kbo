@@ -3493,8 +3493,8 @@
       "home": "키움",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "네일",
+      "homePitcher": "전준표",
       "stadium": "고척",
       "note": "-",
       "status": "예정",
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-22T11:53:12.662Z"
+  "updatedAt": "2026-08-22T12:39:01.995Z"
 }
