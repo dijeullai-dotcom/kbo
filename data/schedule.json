@@ -3487,7 +3487,7 @@
     },
     {
       "date": "20260823",
-      "gameId": "",
+      "gameId": "20260823HTWO0",
       "time": "14:00",
       "away": "KIA",
       "home": "키움",
@@ -3521,17 +3521,17 @@
     },
     {
       "date": "20260823",
-      "gameId": "20260823KTSK0",
+      "gameId": "",
       "time": "19:00",
       "away": "KT",
       "home": "SSG",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "로건",
       "homePitcher": "아빌라",
       "stadium": "문학",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-23T09:13:04.580Z"
+  "updatedAt": "2026-08-23T09:46:54.600Z"
 }
