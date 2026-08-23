@@ -3555,17 +3555,17 @@
     },
     {
       "date": "20260823",
-      "gameId": "20260823LGHH0",
+      "gameId": "",
       "time": "19:00",
       "away": "LG",
       "home": "한화",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "카라스코",
       "homePitcher": "박준영",
       "stadium": "대전",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-23T08:02:43.250Z"
+  "updatedAt": "2026-08-23T08:44:55.919Z"
 }
