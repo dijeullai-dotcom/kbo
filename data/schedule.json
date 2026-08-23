@@ -3504,17 +3504,17 @@
     },
     {
       "date": "20260823",
-      "gameId": "20260823LTOB0",
+      "gameId": "",
       "time": "19:00",
       "away": "롯데",
       "home": "두산",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "박세웅",
       "homePitcher": "곽빈",
       "stadium": "잠실",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -3538,17 +3538,17 @@
     },
     {
       "date": "20260823",
-      "gameId": "20260823SSNC0",
+      "gameId": "",
       "time": "19:00",
       "away": "삼성",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "페덱",
       "homePitcher": "라일리",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4647,5 +4647,5 @@
     "20260905",
     "20260906"
   ],
-  "updatedAt": "2026-08-23T08:44:55.919Z"
+  "updatedAt": "2026-08-23T09:13:04.580Z"
 }
