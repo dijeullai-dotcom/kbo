@@ -3657,7 +3657,7 @@
     },
     {
       "date": "20260826",
-      "gameId": "",
+      "gameId": "20260826NCLG0",
       "time": "18:30",
       "away": "NC",
       "home": "LG",
@@ -3674,7 +3674,7 @@
     },
     {
       "date": "20260826",
-      "gameId": "",
+      "gameId": "20260826HHSK0",
       "time": "18:30",
       "away": "한화",
       "home": "SSG",
@@ -3799,8 +3799,8 @@
       "home": "KT",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "최승용",
+      "homePitcher": "고영표",
       "stadium": "수원",
       "note": "-",
       "status": "예정",
@@ -3816,8 +3816,8 @@
       "home": "키움",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "원태인",
+      "homePitcher": "하영민",
       "stadium": "고척",
       "note": "-",
       "status": "예정",
@@ -5959,5 +5959,5 @@
     "20260929",
     "20260930"
   ],
-  "updatedAt": "2026-08-26T12:18:16.210Z"
+  "updatedAt": "2026-08-26T13:30:14.312Z"
 }
