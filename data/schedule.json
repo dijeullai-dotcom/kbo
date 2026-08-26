@@ -3748,8 +3748,8 @@
       "home": "LG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "토다",
+      "homePitcher": "박시원",
       "stadium": "잠실",
       "note": "-",
       "status": "예정",
@@ -3765,8 +3765,8 @@
       "home": "SSG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "짐머맨",
+      "homePitcher": "김건우",
       "stadium": "문학",
       "note": "-",
       "status": "예정",
@@ -5959,5 +5959,5 @@
     "20260929",
     "20260930"
   ],
-  "updatedAt": "2026-08-26T11:42:56.722Z"
+  "updatedAt": "2026-08-26T12:18:16.210Z"
 }
