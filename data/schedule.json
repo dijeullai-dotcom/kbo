@@ -3457,16 +3457,16 @@
       "time": "14:00",
       "away": "한화",
       "home": "LG",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 3,
+      "homeScore": 4,
       "awayPitcher": "황준서",
       "homePitcher": "카라스코",
       "stadium": "잠실",
       "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "status": "종료",
+      "winPitcher": "카라스코",
+      "losePitcher": "황준서",
+      "savePitcher": "손주영"
     },
     {
       "date": "20260920",
@@ -3474,15 +3474,15 @@
       "time": "14:00",
       "away": "삼성",
       "home": "롯데",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 6,
+      "homeScore": 13,
       "awayPitcher": "원태인",
       "homePitcher": "김태균",
       "stadium": "사직",
       "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
+      "status": "종료",
+      "winPitcher": "이진하",
+      "losePitcher": "원태인",
       "savePitcher": ""
     },
     {
@@ -3491,15 +3491,15 @@
       "time": "14:00",
       "away": "키움",
       "home": "SSG",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 5,
+      "homeScore": 10,
       "awayPitcher": "하영민",
       "homePitcher": "김건우",
       "stadium": "문학",
       "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
+      "status": "종료",
+      "winPitcher": "김건우",
+      "losePitcher": "하영민",
       "savePitcher": ""
     },
     {
@@ -3508,16 +3508,16 @@
       "time": "14:00",
       "away": "두산",
       "home": "KT",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 8,
+      "homeScore": 9,
       "awayPitcher": "박신지",
       "homePitcher": "고영표",
       "stadium": "수원",
       "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "status": "종료",
+      "winPitcher": "고영표",
+      "losePitcher": "박신지",
+      "savePitcher": "김정운"
     },
     {
       "date": "20260920",
@@ -3525,16 +3525,16 @@
       "time": "14:00",
       "away": "KIA",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 8,
+      "homeScore": 6,
       "awayPitcher": "시라카와",
       "homePitcher": "토다",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "status": "종료",
+      "winPitcher": "조상우",
+      "losePitcher": "이용준",
+      "savePitcher": "이의리"
     },
     {
       "date": "20260922",
@@ -4600,5 +4600,5 @@
     "20261006",
     "20261007"
   ],
-  "updatedAt": "2026-09-20T02:41:16.892Z"
+  "updatedAt": "2026-09-20T09:41:24.827Z"
 }
