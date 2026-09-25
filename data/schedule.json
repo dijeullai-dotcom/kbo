@@ -3708,7 +3708,7 @@
     },
     {
       "date": "20260925",
-      "gameId": "20260925LTOB0",
+      "gameId": "",
       "time": "17:00",
       "away": "롯데",
       "home": "두산",
@@ -3717,15 +3717,15 @@
       "awayPitcher": "나균안",
       "homePitcher": "최승용",
       "stadium": "잠실",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260925",
-      "gameId": "20260925SSSK0",
+      "gameId": "",
       "time": "17:00",
       "away": "삼성",
       "home": "SSG",
@@ -3734,25 +3734,25 @@
       "awayPitcher": "김백산",
       "homePitcher": "이로운",
       "stadium": "문학",
-      "note": "-",
-      "status": "예정",
+      "note": "우천취소",
+      "status": "취소",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
     },
     {
       "date": "20260925",
-      "gameId": "20260925HHNC0",
+      "gameId": "",
       "time": "17:00",
       "away": "한화",
       "home": "NC",
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "awayPitcher": "화이트",
       "homePitcher": "구창모",
       "stadium": "창원",
       "note": "-",
-      "status": "예정",
+      "status": "종료",
       "winPitcher": "",
       "losePitcher": "",
       "savePitcher": ""
@@ -4600,5 +4600,5 @@
     "20261006",
     "20261007"
   ],
-  "updatedAt": "2026-09-25T02:46:52.448Z"
+  "updatedAt": "2026-09-25T10:05:31.580Z"
 }
