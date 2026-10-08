@@ -2337,8 +2337,8 @@
       "home": "롯데",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "카라스코",
+      "homePitcher": "김한결",
       "stadium": "사직",
       "note": "-",
       "status": "예정",
@@ -2354,8 +2354,8 @@
       "home": "SSG",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "사토시",
+      "homePitcher": "이로운",
       "stadium": "문학",
       "note": "-",
       "status": "예정",
@@ -2371,8 +2371,8 @@
       "home": "NC",
       "awayScore": null,
       "homeScore": null,
-      "awayPitcher": "",
-      "homePitcher": "",
+      "awayPitcher": "네일",
+      "homePitcher": "구창모",
       "stadium": "창원",
       "note": "-",
       "status": "예정",
@@ -2555,5 +2555,5 @@
     "20261011",
     "20261012"
   ],
-  "updatedAt": "2026-10-07T21:29:28.127Z"
+  "updatedAt": "2026-10-08T03:49:25.321Z"
 }
