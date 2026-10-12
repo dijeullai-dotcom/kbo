@@ -2467,53 +2467,53 @@
     },
     {
       "date": "20261012",
-      "gameId": "",
+      "gameId": "20261012LTOB0",
       "time": "18:30",
       "away": "롯데",
       "home": "두산",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 7,
+      "homeScore": 4,
       "awayPitcher": "박세웅",
       "homePitcher": "이용찬",
       "stadium": "잠실",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "이영재",
+      "losePitcher": "박치국",
+      "savePitcher": "이이무라"
     },
     {
       "date": "20261012",
-      "gameId": "",
+      "gameId": "20261012KTSS0",
       "time": "18:30",
       "away": "KT",
       "home": "삼성",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 4,
+      "homeScore": 2,
       "awayPitcher": "소형준",
       "homePitcher": "양창섭",
       "stadium": "대구",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
-      "savePitcher": ""
+      "winPitcher": "소형준",
+      "losePitcher": "사토시",
+      "savePitcher": "박영현"
     },
     {
       "date": "20261012",
-      "gameId": "",
+      "gameId": "20261012LGHT0",
       "time": "18:30",
       "away": "LG",
       "home": "KIA",
-      "awayScore": 0,
-      "homeScore": 0,
+      "awayScore": 2,
+      "homeScore": 4,
       "awayPitcher": "임찬규",
       "homePitcher": "양현종",
       "stadium": "광주",
       "note": "-",
       "status": "종료",
-      "winPitcher": "",
-      "losePitcher": "",
+      "winPitcher": "전상현",
+      "losePitcher": "케네디",
       "savePitcher": ""
     }
   ],
@@ -2555,5 +2555,5 @@
     "20261011",
     "20261012"
   ],
-  "updatedAt": "2026-10-12T12:55:55.192Z"
+  "updatedAt": "2026-10-12T21:41:04.298Z"
 }
